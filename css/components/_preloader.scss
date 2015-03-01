@@ -1,0 +1,42 @@
+body.preloader {
+	overflow: hidden;
+}
+
+/* Preloader */
+
+#preloader {
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color:#e79934;
+    z-index:99999;
+}
+
+#preloader-status {
+    width:141px;
+    height:110px;
+    position:absolute;
+    left:50%;
+    top:50%;
+    margin:-55px 0 0 -70px;
+    
+    .nav-logo {
+        float: none;
+        display: block;
+        top: auto;
+        left: auto;
+        margin: 0 0 20px 0;
+
+    }
+
+    span {
+        display: block;
+        width: 40px;
+        height: 40px;
+        margin: 0 auto;
+        background-repeat: no-repeat;
+        background-image: url(../img/spinner.gif);
+    }
+}
