@@ -90,7 +90,6 @@ figure {
   margin: 1em 40px; }
 
 hr {
-  -moz-box-sizing: content-box;
   box-sizing: content-box;
   height: 0; }
 
@@ -152,8 +151,6 @@ input[type="number"]::-webkit-outer-spin-button {
 
 input[type="search"] {
   -webkit-appearance: textfield;
-  -moz-box-sizing: content-box;
-  -webkit-box-sizing: content-box;
   box-sizing: content-box; }
 
 input[type="search"]::-webkit-search-cancel-button,
@@ -190,7 +187,6 @@ th {
     color: #000 !important;
     text-shadow: none !important;
     background: transparent !important;
-    -webkit-box-shadow: none !important;
     box-shadow: none !important; }
 
   a,
@@ -916,7 +912,6 @@ th {
 .slick-slider {
   position: relative;
   display: block;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -945,9 +940,7 @@ th {
 .slick-slider .slick-track,
 .slick-slider .slick-list {
   -webkit-transform: translate3d(0, 0, 0);
-  -moz-transform: translate3d(0, 0, 0);
   -ms-transform: translate3d(0, 0, 0);
-  -o-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0); }
 
 .slick-track {
@@ -1083,13 +1076,16 @@ body.preloader {
 @keyframes imagelightbox-loading {
   from {
     opacity: .5;
-    transform: scale(0.75); }
+    -webkit-transform: scale(0.75);
+            transform: scale(0.75); }
   50% {
     opacity: 1;
-    transform: scale(1); }
+    -webkit-transform: scale(1);
+            transform: scale(1); }
   to {
     opacity: .5;
-    transform: scale(0.75); } }
+    -webkit-transform: scale(0.75);
+            transform: scale(0.75); } }
 /* OVERLAY */
 #imagelightbox-overlay {
   background-color: #fff;
@@ -1120,8 +1116,6 @@ body.preloader {
   border: 0;
   outline: 0;
   -webkit-transition: all 250ms;
-  -moz-transition: all 250ms;
-  -o-transition: all 250ms;
   transition: all 250ms; }
 
 #imagelightbox-close:hover,
@@ -1212,8 +1206,6 @@ body.preloader {
   border-radius: 4px;
   outline: 0;
   -webkit-transition: all 250ms;
-  -moz-transition: all 250ms;
-  -o-transition: all 250ms;
   transition: all 250ms; }
 
 .imagelightbox-arrow:hover,
@@ -1311,7 +1303,8 @@ body.preloader {
   box-sizing: border-box; }
 
 p, a, li, h1, h2, h3, h4, input, textarea {
-  -webkit-font-smoothing: antialiased; }
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
 
 a {
   color: white;
@@ -1327,10 +1320,23 @@ body {
   color: #444343;
   background: #f2f0ed;
   -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   font-size: 100%;
   line-height: 1.3;
   position: relative;
   overflow-x: hidden !important; }
+
+::-moz-selection {
+  color: white;
+  background: rgba(196, 152, 95, 0.7); }
+
+::selection {
+  color: white;
+  background: rgba(196, 152, 95, 0.7); }
+
+::-moz-selection {
+  color: white;
+  background: rgba(196, 152, 95, 0.7); }
 
 .btn {
   display: inline-block;
@@ -1346,8 +1352,6 @@ body {
     border-radius: 4px;
     background-clip: padding-box;
     -webkit-transition: all 250ms;
-    -moz-transition: all 250ms;
-    -o-transition: all 250ms;
     transition: all 250ms; }
     .btn.btn-main:hover {
       padding: 0px 32px;
@@ -1381,6 +1385,13 @@ body {
   .main-title .text {
     height: auto;
     background: transparent !important; }
+    .main-title .text span {
+      height: auto;
+      display: inline;
+      background: none;
+      margin: 0; }
+    .main-title .text .blast {
+      opacity: 0; }
   .main-title .line-1 {
     width: 110px;
     margin-bottom: 3px; }
@@ -1444,8 +1455,6 @@ header {
           cursor: pointer;
           margin-right: 6px;
           -webkit-transition: all 250ms;
-          -moz-transition: all 250ms;
-          -o-transition: all 250ms;
           transition: all 250ms; }
           header nav .nav-topbar .topbar-lang .lang.br {
             background: url(../img/lang-br.png); }
@@ -1483,17 +1492,19 @@ header {
           header nav .nav-topbar .topbar-fb a i {
             display: inline-block;
             -webkit-transition: all 250ms;
-            -moz-transition: all 250ms;
-            -o-transition: all 250ms;
             transition: all 250ms;
             font-size: 1.4em;
             line-height: 0px;
             position: relative;
             top: 2px;
             margin-right: 10px;
-            transform: scale(1); }
+            -webkit-transform: scale(1);
+                -ms-transform: scale(1);
+                    transform: scale(1); }
           header nav .nav-topbar .topbar-fb a:hover i {
-            transform: scale(1.3) !important;
+            -webkit-transform: scale(1.3) !important;
+                -ms-transform: scale(1.3) !important;
+                    transform: scale(1.3) !important;
             color: #3b5998; }
     header nav .nav-main {
       padding: 15px 30px; }
@@ -1539,8 +1550,6 @@ header {
           background-color: white;
           opacity: 0;
           -webkit-transition: all 250ms;
-          -moz-transition: all 250ms;
-          -o-transition: all 250ms;
           transition: all 250ms; }
       header nav .nav-items .nav-booking {
         display: inline-block;
@@ -1592,14 +1601,16 @@ header {
             border-radius: 35px;
             background: rgba(196, 152, 95, 0.7);
             opacity: 0;
-            transform: scale(2);
+            -webkit-transform: scale(2);
+                -ms-transform: scale(2);
+                    transform: scale(2);
             -webkit-transition: all 500ms;
-            -moz-transition: all 500ms;
-            -o-transition: all 500ms;
             transition: all 500ms; }
           header nav .nav-items .nav-panel-toggle button:hover span {
             opacity: 1;
-            transform: scale(1); }
+            -webkit-transform: scale(1);
+                -ms-transform: scale(1);
+                    transform: scale(1); }
 
 .header-default {
   background-color: #c4985f; }
@@ -1625,6 +1636,8 @@ header {
       padding-bottom: 40px; }
     .header-default.gastronomy .main-title {
       padding: 0 40px; }
+      .header-default.gastronomy .main-title .text span {
+        opacity: 0; }
 
 .nav-logo {
   width: 141px;
@@ -1642,6 +1655,7 @@ header {
       background-size: 141px 53px; } }
 
 .nav-panel {
+  display: none;
   background-color: #1d1d1d; }
   .nav-panel ul {
     list-style: none;
@@ -1654,8 +1668,6 @@ header {
       padding: 18px 25px;
       border-bottom: 1px solid #323131;
       -webkit-transition: all 250ms;
-      -moz-transition: all 250ms;
-      -o-transition: all 250ms;
       transition: all 250ms; }
       .nav-panel ul li a:hover {
         background-color: #323131; }
@@ -1821,14 +1833,16 @@ header {
   background: black;
   overflow: hidden;
   -webkit-transition: all 250ms;
-  -moz-transition: all 250ms;
-  -o-transition: all 250ms;
   transition: all 250ms; }
   .room:hover .main-title {
-    transform: scale(0.9); }
+    -webkit-transform: scale(0.9);
+        -ms-transform: scale(0.9);
+            transform: scale(0.9); }
   .room:hover .room-bg {
     opacity: 0.7;
-    transform: scale(1.15); }
+    -webkit-transform: scale(1.15);
+        -ms-transform: scale(1.15);
+            transform: scale(1.15); }
   @media only screen and (max-width: 767px) {
     .room {
       width: 100%;
@@ -1848,8 +1862,6 @@ header {
       .room .room-wrapper .room-content .main-title {
         margin: 0;
         -webkit-transition: all 500ms;
-        -moz-transition: all 500ms;
-        -o-transition: all 500ms;
         transition: all 500ms; }
   .room .room-bg {
     width: 100%;
@@ -1858,8 +1870,6 @@ header {
     z-index: 0;
     background-size: cover;
     -webkit-transition: all 500ms;
-    -moz-transition: all 500ms;
-    -o-transition: all 500ms;
     transition: all 500ms; }
   .room.room-1 .room-bg {
     background-image: url(../img/rooms-bg-1.jpg); }
@@ -1870,8 +1880,54 @@ header {
   .room.room-4 .room-bg {
     background-image: url(../img/rooms-bg-4.jpg); }
 
-.section-list {
-  padding: 40px 0; }
+section.section-list {
+  padding: 40px 0;
+  background-color: #F2F0ED; }
+  section.section-list .list-item {
+    height: 330px;
+    margin-bottom: 20px;
+    position: relative;
+    background-color: #e7e4de; }
+    section.section-list .list-item .pic, section.section-list .list-item .text {
+      width: 50%;
+      height: 100%;
+      float: left;
+      display: inline-block; }
+    section.section-list .list-item .pic {
+      background-size: cover; }
+      section.section-list .list-item .pic.pic-1 {
+        background-image: url(../img/restaurant-1.jpg); }
+      section.section-list .list-item .pic.pic-2 {
+        background-image: url(../img/bar-1.jpg); }
+      section.section-list .list-item .pic.pic-3 {
+        background-image: url(../img/gym-1.jpg); }
+    section.section-list .list-item .text {
+      padding: 0px 35px;
+      border: solid;
+      border-width: 1px 1px 1px 0;
+      border-color: #d8d2c9; }
+      section.section-list .list-item .text h3 {
+        font-size: 1.6em;
+        font-weight: 600; }
+    @media only screen and (max-width: 991px) {
+      section.section-list .list-item .pic {
+        width: 40%; }
+      section.section-list .list-item .text {
+        width: 60%; } }
+    @media only screen and (max-width: 767px) {
+      section.section-list .list-item {
+        height: auto; }
+        section.section-list .list-item .pic, section.section-list .list-item .text {
+          width: 100%;
+          display: block;
+          float: none; }
+        section.section-list .list-item .pic {
+          height: 230px; }
+        section.section-list .list-item .text {
+          height: auto; } }
+    @media only screen and (max-width: 550px) {
+      section.section-list .list-item .pic {
+        height: 180px; } }
 
 footer {
   padding: 20px 0;
@@ -1947,3 +2003,5 @@ footer {
           top: 3px; }
       footer i {
         display: inline-block; } }
+
+/*# sourceMappingURL=blueprints.css.map */

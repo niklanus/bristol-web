@@ -12,7 +12,7 @@
 		"outputPathIsSetByUser": 0
 		},
 	"\/css\/blueprints.sass": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 2,
@@ -23,7 +23,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
+		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
 		"useLibsass": false
 		},
@@ -166,6 +166,28 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/img\/bar-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 96431,
+		"inputAbbreviatedPath": "\/img\/bar-1.jpg",
+		"outputAbbreviatedPath": "\/img\/bar-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/gym-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 69584,
+		"inputAbbreviatedPath": "\/img\/gym-1.jpg",
+		"outputAbbreviatedPath": "\/img\/gym-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/header-gastronomy-bg.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -181,7 +203,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 3466,
+		"initialSize": 4696,
 		"inputAbbreviatedPath": "\/img\/header-logo.png",
 		"outputAbbreviatedPath": "\/img\/header-logo.png",
 		"outputPathIsOutsideProject": 0,
@@ -192,7 +214,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 5492,
+		"initialSize": 9774,
 		"inputAbbreviatedPath": "\/img\/header-logo@2x.png",
 		"outputAbbreviatedPath": "\/img\/header-logo@2x.png",
 		"outputPathIsOutsideProject": 0,
@@ -276,11 +298,22 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/restaurant-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 75982,
+		"inputAbbreviatedPath": "\/img\/restaurant-1.jpg",
+		"outputAbbreviatedPath": "\/img\/restaurant-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/rooms-bg-1.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 31844,
+		"initialSize": 53116,
 		"inputAbbreviatedPath": "\/img\/rooms-bg-1.jpg",
 		"outputAbbreviatedPath": "\/img\/rooms-bg-1.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -291,7 +324,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 28734,
+		"initialSize": 48408,
 		"inputAbbreviatedPath": "\/img\/rooms-bg-2.jpg",
 		"outputAbbreviatedPath": "\/img\/rooms-bg-2.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -302,7 +335,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 24803,
+		"initialSize": 42186,
 		"inputAbbreviatedPath": "\/img\/rooms-bg-3.jpg",
 		"outputAbbreviatedPath": "\/img\/rooms-bg-3.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -313,9 +346,31 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 30580,
+		"initialSize": 55861,
 		"inputAbbreviatedPath": "\/img\/rooms-bg-4.jpg",
 		"outputAbbreviatedPath": "\/img\/rooms-bg-4.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/salon-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 66382,
+		"inputAbbreviatedPath": "\/img\/salon-1.jpg",
+		"outputAbbreviatedPath": "\/img\/salon-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/salon-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 76503,
+		"inputAbbreviatedPath": "\/img\/salon-2.jpg",
+		"outputAbbreviatedPath": "\/img\/salon-2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -525,10 +580,10 @@
 	"bowerAbbreviatedPath": "",
 	"displayValue": "Hotel Bristol",
 	"displayValueWasSetByUser": 1,
-	"iconImageName": "harddrive_blue"
+	"iconImageName": "brackets_blue"
 	},
 "projectSettings": {
-	"alwaysUseExternalServer": 1,
+	"alwaysUseExternalServer": 0,
 	"animateCSSInjections": 1,
 	"autoApplyPSLanguageSettingsStyle": 0,
 	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",

@@ -20,6 +20,8 @@ $( document ).ready(function() {
 
 	$('.header-slider').slick('slickPause');
 
+	$('.nav-panel').css('display', 'block');
+
 	var panel = $('.nav-panel').scotchPanel({
 	    containerSelector: '.body-wrapper',
 	    direction: 'right',
