@@ -7,7 +7,7 @@
 @import 'components/slick'
 @import 'components/preloader'
 @import 'components/imagelightbox'
-
+@import 'components/featherlight'
 
 
 
@@ -68,12 +68,39 @@ body
 			padding: 0px 32px
 			border-color: rgba(196,152,95,0.7)
 			background-color: rgba(196,152,95,0.7)
+		
+		&.btn-contact-red, &.btn-contact-gold
+			font-size: 0.9em
+			width: 100%
+
+			i
+				font-size: 1.4em
+				top: 2px
+				position: relative
+
+		&.btn-contact-red
+			border-color: #f76657
+			color: #f76657
+
+		&.btn-contact-gold
+			border-color: $gold
+			color: $gold
 
 	&.btn-main.btn-althover:hover
 		padding: 0px 24px
 		color: $darkgray
 		border-color: white
 		background-color: white
+
+		&.btn-contact-red
+			border-color: #f76657
+			background-color: #f76657
+			color: white
+
+		&.btn-contact-gold
+			border-color: $gold
+			background-color: $gold
+			color: white
 
 	&.btn-small
 		height: 38px
@@ -381,9 +408,28 @@ header
 		.main-title
 			padding: 0 40px
 
+	&.salones
+		background: url(../img/header-salones-bg.jpg)
+		background-size: cover
+		color: white
+
+		.header-default-content
+			padding-bottom: 40px
+
+		.main-title
+			padding: 0 40px
+
 			.text
 				span
 					opacity: 0
+
+	&.contact
+		.nav-default
+			@include gradient(rgba(0,0,0,0.7), rgba(0,0,0,0)) 
+			padding-bottom: 35px
+
+			.nav-topbar
+				background: transparent
 
 .nav-logo
 	width: 141px
@@ -686,6 +732,7 @@ section.section-list
 
 		.pic
 			background-size: cover
+			position: relative
 
 			&.pic-1
 				background-image: url(../img/restaurant-1.jpg)
@@ -693,6 +740,19 @@ section.section-list
 				background-image: url(../img/bar-1.jpg)
 			&.pic-3
 				background-image: url(../img/gym-1.jpg)
+			&.salon-1
+				background-image: url(../img/salon-1.jpg)
+			&.salon-2
+				background-image: url(../img/salon-2.jpg)
+			
+			.pic-overlay
+				width: 100%
+				padding: 60px 0 25px 0
+				text-align: center
+				position: absolute
+				bottom: 0
+				@include gradient(rgba(0,0,0,0), rgba(0,0,0,0.8))
+
 
 		.text
 			padding: 0px 35px
@@ -703,6 +763,39 @@ section.section-list
 			h3
 				font-size: 1.6em
 				font-weight: 600
+
+
+		&.salon
+			.text
+				font-size: 0.9em
+
+			h3
+				@media only screen and (max-width : 440px)
+					font-size: 1.8em
+
+			h3 span
+				background-color: $gold
+				font-size: 14px
+				text-transform: uppercase
+				color: white
+				padding: 10px 14px 8px 14px
+				margin-left: 15px
+				position: relative
+				top: -2px
+
+				@media only screen and (max-width : 440px)
+					width: 140px
+					display: block
+					text-align: center
+					margin: 10px 0 0 0
+					top: auto
+
+		&.alt
+			.pic
+				float: right
+				
+			.text
+				border-width: 1px 0px 1px 1px
 		
 		@media only screen and (max-width : 991px)
 			.pic
@@ -717,22 +810,111 @@ section.section-list
 			.pic, .text
 				width: 100%
 				display: block
-				float: none
+				float: none !important
 			
 			.pic
 				height: 230px
 
 			.text
 				height: auto
+				padding: 0px 25px
+
+				p:last-child
+					padding-bottom: 15px
 
 		@media only screen and (max-width : 550px)
 			.pic
 				height: 180px
 
 
+section.contact-items
+	background: darken($darkgray,6)
+	z-index: 5
+	position: relative
+
+	.container
+		position: relative
+		top: -110px
 
 
+	.contact-item
+		background: white
+		text-align: center
+		box-shadow: 0px 0px 20px rgba(0,0,0,0.3)
+		
+		@media only screen and (max-width : 991px)
+			margin-bottom: 25px
 
+		.header
+			background-color: $gold
+			color: white
+			padding: 28px 0
+			height: 74px
+
+			&.alt
+				background-color: #f76657
+
+			h4
+				text-transform: uppercase
+				font-size: 1.15em
+				font-weight: 800
+				line-height: 0
+				margin: 0
+
+				i
+					margin-right: 5px
+
+		.content
+			height: 210px
+			padding: 40px 32px
+			line-height: 1.35
+
+			address
+				font-weight: 400 !important
+				font-style: normal
+				margin-bottom: 30px
+
+				strong
+					font-weight: 800 !important
+			
+			.contact-phone, .contact-fax
+				p
+					margin: 0
+					font-size: 1.2em
+					letter-spacing: -0.02em
+
+					span
+						color: #8d8d8d
+						font-style: italic
+
+				.desc
+					color: #8d8d8d
+					font-size: 0.9em
+
+			.contact-phone
+				p
+					font-size: 1.5em
+
+				.desc
+					margin-bottom: 24px
+
+			.contact-mail
+				p
+					margin: 0 0 25px 0
+
+				.btn
+					margin-bottom: 8px
+
+
+.body-contact
+	background: darken($darkgray,6)
+	
+	header nav .nav-topbar .topbar-fb a:hover i
+		color: white
+
+.body-contact.js
+	@media only screen and (min-width : 992px)
+		overflow-y: hidden !important
 
 footer
 	padding: 20px 0
@@ -835,3 +1017,87 @@ footer
 
 		i
 			display: inline-block
+
+#contact-map-container
+	min-height: 250px !important
+	//max-height: 550px
+
+.contact-map
+	width: 100%
+	height: 100%
+	position: absolute
+	top: 0
+
+.contact-iframe
+	max-width: 500px
+
+	h4
+		font-size: 1.2em
+		text-align: center
+		text-transform: uppercase
+		margin: 0
+		padding: 28px 0
+		background-color: $gold
+		color: white
+		line-height: 0
+
+		i
+			margin-right: 5px
+
+	.contact-iframe-close
+		display: block
+		background-color: darken($gold,11)
+		color: white
+		padding: 7px 0 9px 0
+		text-align: center
+		text-transform: uppercase
+		font-size: 0.8em
+		@include hover
+
+		i
+			font-size: 1.6em
+			position: relative
+			top: 3px
+
+		&:hover
+			background-color: darken($gold,18)
+
+.contact-iframe-container
+	padding: 25px
+
+	&.centered
+		text-align: center
+	
+	.spacer-top
+		margin-top: 40px
+
+.form-item
+	margin-bottom: 25px
+	
+.label-default
+	font-size: 0.8em
+	text-transform: uppercase
+	font-weight: 600
+
+.input-default[type="text"], .input-default[type="email"], .input-default[type="tel"]
+	width: 100%
+	border: 0px
+	border-bottom: 2px solid $darkgray
+	padding: 6px 20px 6px 0px
+	margin-top: 2px
+	outline: 0
+	@include hover
+
+	&:focus
+		border-color: $gold
+
+.input-default.textarea
+	width: 100%
+	border: 2px solid $darkgray
+	padding: 15px
+	margin-top: 10px
+	outline: 0
+	@include hover
+
+	&:focus
+		border-color: $gold

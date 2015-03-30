@@ -1,7 +1,16 @@
 {
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
-"creatorBuild": "18493",
+"creatorBuild": "18027",
 "files": {
+	"\/contacto.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/contacto.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/css\/blueprints.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -26,6 +35,22 @@
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
 		"useLibsass": false
+		},
+	"\/css\/components\/_featherlight.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/components\/_featherlight.scss",
+		"outputAbbreviatedPath": "\/css\/css\/_featherlight.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
 		},
 	"\/css\/components\/_grid.scss": {
 		"createSourceMap": 0,
@@ -232,6 +257,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/header-salones-bg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 71332,
+		"inputAbbreviatedPath": "\/img\/header-salones-bg.jpg",
+		"outputAbbreviatedPath": "\/img\/header-salones-bg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/lang-br.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -357,7 +393,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 66382,
+		"initialSize": 76503,
 		"inputAbbreviatedPath": "\/img\/salon-1.jpg",
 		"outputAbbreviatedPath": "\/img\/salon-1.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -368,7 +404,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 76503,
+		"initialSize": 66382,
 		"inputAbbreviatedPath": "\/img\/salon-2.jpg",
 		"outputAbbreviatedPath": "\/img\/salon-2.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -408,6 +444,15 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/includes\/footer-contact.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/includes\/footer-contact.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/includes\/footer.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -443,6 +488,405 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/js\/featherlight-1.2.0\/assets\/images\/black.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 90798,
+		"inputAbbreviatedPath": "\/js\/featherlight-1.2.0\/assets\/images\/black.jpg",
+		"outputAbbreviatedPath": "\/js\/featherlight-1.2.0\/assets\/images\/black.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/js\/featherlight-1.2.0\/assets\/images\/black.thumb.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9034,
+		"inputAbbreviatedPath": "\/js\/featherlight-1.2.0\/assets\/images\/black.thumb.jpg",
+		"outputAbbreviatedPath": "\/js\/featherlight-1.2.0\/assets\/images\/black.thumb.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/js\/featherlight-1.2.0\/assets\/images\/blue.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 19251,
+		"inputAbbreviatedPath": "\/js\/featherlight-1.2.0\/assets\/images\/blue.jpg",
+		"outputAbbreviatedPath": "\/js\/featherlight-1.2.0\/assets\/images\/blue.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/js\/featherlight-1.2.0\/assets\/images\/blue.thumb.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8946,
+		"inputAbbreviatedPath": "\/js\/featherlight-1.2.0\/assets\/images\/blue.thumb.jpg",
+		"outputAbbreviatedPath": "\/js\/featherlight-1.2.0\/assets\/images\/blue.thumb.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/js\/featherlight-1.2.0\/assets\/images\/droplets.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 84573,
+		"inputAbbreviatedPath": "\/js\/featherlight-1.2.0\/assets\/images\/droplets.jpg",
+		"outputAbbreviatedPath": "\/js\/featherlight-1.2.0\/assets\/images\/droplets.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/js\/featherlight-1.2.0\/assets\/images\/droplets.thumb.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11950,
+		"inputAbbreviatedPath": "\/js\/featherlight-1.2.0\/assets\/images\/droplets.thumb.jpg",
+		"outputAbbreviatedPath": "\/js\/featherlight-1.2.0\/assets\/images\/droplets.thumb.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/js\/featherlight-1.2.0\/assets\/images\/feed.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 45755,
+		"inputAbbreviatedPath": "\/js\/featherlight-1.2.0\/assets\/images\/feed.jpg",
+		"outputAbbreviatedPath": "\/js\/featherlight-1.2.0\/assets\/images\/feed.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/js\/featherlight-1.2.0\/assets\/images\/feed.thumb.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 16682,
+		"inputAbbreviatedPath": "\/js\/featherlight-1.2.0\/assets\/images\/feed.thumb.jpg",
+		"outputAbbreviatedPath": "\/js\/featherlight-1.2.0\/assets\/images\/feed.thumb.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/js\/featherlight-1.2.0\/assets\/images\/red_and_yellow.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 329461,
+		"inputAbbreviatedPath": "\/js\/featherlight-1.2.0\/assets\/images\/red_and_yellow.jpg",
+		"outputAbbreviatedPath": "\/js\/featherlight-1.2.0\/assets\/images\/red_and_yellow.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/js\/featherlight-1.2.0\/assets\/images\/red_and_yellow.thumb.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 27470,
+		"inputAbbreviatedPath": "\/js\/featherlight-1.2.0\/assets\/images\/red_and_yellow.thumb.jpg",
+		"outputAbbreviatedPath": "\/js\/featherlight-1.2.0\/assets\/images\/red_and_yellow.thumb.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/js\/featherlight-1.2.0\/assets\/images\/two_birds.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 52385,
+		"inputAbbreviatedPath": "\/js\/featherlight-1.2.0\/assets\/images\/two_birds.jpg",
+		"outputAbbreviatedPath": "\/js\/featherlight-1.2.0\/assets\/images\/two_birds.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/js\/featherlight-1.2.0\/assets\/images\/two_birds.thumb.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10929,
+		"inputAbbreviatedPath": "\/js\/featherlight-1.2.0\/assets\/images\/two_birds.thumb.jpg",
+		"outputAbbreviatedPath": "\/js\/featherlight-1.2.0\/assets\/images\/two_birds.thumb.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/js\/featherlight-1.2.0\/assets\/javascripts\/jquery-1.7.0.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/featherlight-1.2.0\/assets\/javascripts\/jquery-1.7.0.min.js",
+		"outputAbbreviatedPath": "\/js\/featherlight-1.2.0\/assets\/javascripts\/min\/jquery-1.7.0.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/featherlight-1.2.0\/assets\/stylesheets\/bootstrap.min.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/featherlight-1.2.0\/assets\/stylesheets\/bootstrap.min.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/js\/featherlight-1.2.0\/CHANGELOG.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/featherlight-1.2.0\/CHANGELOG.md",
+		"outputAbbreviatedPath": "\/js\/featherlight-1.2.0\/CHANGELOG.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/js\/featherlight-1.2.0\/CONTRIBUTING.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/featherlight-1.2.0\/CONTRIBUTING.md",
+		"outputAbbreviatedPath": "\/js\/featherlight-1.2.0\/CONTRIBUTING.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/js\/featherlight-1.2.0\/gallery.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/featherlight-1.2.0\/gallery.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/js\/featherlight-1.2.0\/Gruntfile.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/featherlight-1.2.0\/Gruntfile.js",
+		"outputAbbreviatedPath": "\/js\/featherlight-1.2.0\/min\/Gruntfile-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/featherlight-1.2.0\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/featherlight-1.2.0\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/js\/featherlight-1.2.0\/README.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/featherlight-1.2.0\/README.md",
+		"outputAbbreviatedPath": "\/js\/featherlight-1.2.0\/README.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/js\/featherlight-1.2.0\/release\/featherlight.gallery.min.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/featherlight-1.2.0\/release\/featherlight.gallery.min.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/js\/featherlight-1.2.0\/release\/featherlight.gallery.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/featherlight-1.2.0\/release\/featherlight.gallery.min.js",
+		"outputAbbreviatedPath": "\/js\/featherlight-1.2.0\/release\/min\/featherlight.gallery.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/featherlight-1.2.0\/release\/featherlight.min.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/featherlight-1.2.0\/release\/featherlight.min.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/js\/featherlight-1.2.0\/release\/featherlight.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/featherlight-1.2.0\/release\/featherlight.min.js",
+		"outputAbbreviatedPath": "\/js\/featherlight-1.2.0\/release\/min\/featherlight.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/featherlight-1.2.0\/src\/featherlight.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/featherlight-1.2.0\/src\/featherlight.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/js\/featherlight-1.2.0\/src\/featherlight.gallery.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/featherlight-1.2.0\/src\/featherlight.gallery.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/js\/featherlight-1.2.0\/src\/featherlight.gallery.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/featherlight-1.2.0\/src\/featherlight.gallery.js",
+		"outputAbbreviatedPath": "\/js\/featherlight-1.2.0\/src\/min\/featherlight.gallery-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/featherlight-1.2.0\/src\/featherlight.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/featherlight-1.2.0\/src\/featherlight.js",
+		"outputAbbreviatedPath": "\/js\/featherlight-1.2.0\/src\/min\/featherlight-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/featherlight-1.2.0\/src\/gallery.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/featherlight-1.2.0\/src\/gallery.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/js\/featherlight-1.2.0\/src\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/featherlight-1.2.0\/src\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/js\/featherlight-1.2.0\/test\/featherlight.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/featherlight-1.2.0\/test\/featherlight.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/js\/featherlight-1.2.0\/test\/featherlight_gallery.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/featherlight-1.2.0\/test\/featherlight_gallery.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/js\/featherlight-1.2.0\/test\/featherlight_gallery_test.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/featherlight-1.2.0\/test\/featherlight_gallery_test.js",
+		"outputAbbreviatedPath": "\/js\/featherlight-1.2.0\/test\/min\/featherlight_gallery_test-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/featherlight-1.2.0\/test\/featherlight_test.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/featherlight-1.2.0\/test\/featherlight_test.js",
+		"outputAbbreviatedPath": "\/js\/featherlight-1.2.0\/test\/min\/featherlight_test-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/featherlight-1.2.0\/test\/fixtures\/photo.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 25519,
+		"inputAbbreviatedPath": "\/js\/featherlight-1.2.0\/test\/fixtures\/photo.jpeg",
+		"outputAbbreviatedPath": "\/js\/featherlight-1.2.0\/test\/fixtures\/photo.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/js\/featherlight-1.2.0\/test\/fixtures\/photo_large.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 38984,
+		"inputAbbreviatedPath": "\/js\/featherlight-1.2.0\/test\/fixtures\/photo_large.jpg",
+		"outputAbbreviatedPath": "\/js\/featherlight-1.2.0\/test\/fixtures\/photo_large.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/js\/featherlight-1.2.0\/test\/helpers\/patiently.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/featherlight-1.2.0\/test\/helpers\/patiently.js",
+		"outputAbbreviatedPath": "\/js\/featherlight-1.2.0\/test\/helpers\/min\/patiently-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/featherlight.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/featherlight.js",
+		"outputAbbreviatedPath": "\/js\/min\/featherlight-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/js\/imagelightbox.min.js": {
 		"fileType": 64,
@@ -569,6 +1013,15 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/salones.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/salones.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		}
 	},
 "hooks": [
@@ -619,10 +1072,6 @@
 			},
 		"empty_constructor_needs_parens": {
 			"active": 0,
-			"flagValue": -1
-			},
-		"ensure_comprehensions": {
-			"active": 1,
 			"flagValue": -1
 			},
 		"indentation": {
@@ -716,16 +1165,12 @@
 		"space_operators": {
 			"active": 0,
 			"flagValue": -1
-			},
-		"spacing_after_comma": {
-			"active": 1,
-			"flagValue": -1
 			}
 		},
 	"coffeeMinifyOutput": 1,
 	"coffeeOutputStyle": 0,
 	"coffeeSyntaxCheckerStyle": 1,
-	"externalServerAddress": "http:\/\/localhost:8888",
+	"externalServerAddress": "http:\/\/bristol:8888",
 	"externalServerPreviewPathAddition": "",
 	"genericWebpageFileExtensionsString": "html, htm, shtml, shtm, xhtml, php, jsp, asp, aspx, erb, ctp",
 	"hamlAutoOutputPathEnabled": 1,
@@ -776,10 +1221,6 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"browserify": {
-			"active": 0,
-			"flagValue": -1
-			},
 		"camelcase": {
 			"active": 0,
 			"flagValue": -1
@@ -802,10 +1243,6 @@
 			},
 		"dojo": {
 			"active": 0,
-			"flagValue": -1
-			},
-		"elision": {
-			"active": 1,
 			"flagValue": -1
 			},
 		"eqeqeq": {
@@ -860,10 +1297,6 @@
 			"active": 0,
 			"flagValue": -1
 			},
-		"jasmine": {
-			"active": 0,
-			"flagValue": -1
-			},
 		"jquery": {
 			"active": 1,
 			"flagValue": -1
@@ -907,10 +1340,6 @@
 		"maxstatements": {
 			"active": 0,
 			"flagValue": 4
-			},
-		"mocha": {
-			"active": 0,
-			"flagValue": -1
 			},
 		"mootools": {
 			"active": 0,
@@ -980,10 +1409,6 @@
 			"active": 0,
 			"flagValue": -1
 			},
-		"qunit": {
-			"active": 0,
-			"flagValue": -1
-			},
 		"regexp": {
 			"active": 1,
 			"flagValue": -1
@@ -1001,10 +1426,6 @@
 			"flagValue": -1
 			},
 		"shelljs": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"singleGroups": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -1208,7 +1629,6 @@
 	"slimAutoOutputPathStyle": 0,
 	"slimCompileOnly": 0,
 	"slimLogicless": 0,
-	"slimOutputFormat": 0,
 	"slimOutputStyle": 1,
 	"slimRailsCompatible": 0,
 	"stylusAutoOutputPathEnabled": 1,
@@ -1233,9 +1653,8 @@
 	"typescriptMinifyOutput": 0,
 	"typescriptModuleType": 0,
 	"typescriptNoImplicitAny": 0,
-	"typescriptPreserveConstEnums": 0,
+	"typescriptNoResolve": 0,
 	"typescriptRemoveComments": 0,
-	"typescriptSuppressImplicitAnyIndexErrors": 0,
 	"typescriptTargetECMAVersion": 0,
 	"uglifyDefinesString": "",
 	"uglifyFlags2": {
@@ -1272,10 +1691,6 @@
 			"flagValue": -1
 			},
 		"dead_code": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"drop_console": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -1319,10 +1734,6 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"keep_fargs": {
-			"active": 0,
-			"flagValue": -1
-			},
 		"loops": {
 			"active": 1,
 			"flagValue": -1
@@ -1335,16 +1746,8 @@
 			"active": 1,
 			"flagValue": 32000
 			},
-		"negate_iife": {
-			"active": 1,
-			"flagValue": -1
-			},
 		"properties": {
 			"active": 1,
-			"flagValue": -1
-			},
-		"pure_getters": {
-			"active": 0,
 			"flagValue": -1
 			},
 		"quote-keys": {

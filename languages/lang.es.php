@@ -72,6 +72,22 @@ $lang['room-name-4'] = 'Suite de lujo';
 $lang['section-gastronomy-title'] = 'Gastronomía y servicios';
 
 $lang['services-restaurant'] = '<h3>Restaurante</h3><p>En el entrepiso se encuentra el restaurante, donde podrá disfrutar de las exquisitas comidas de nuestra cocina. Para sus reuniones de negocio o placer, le ofrecemos el mejor servicio con variedad de menú ejecutivo o a la carta. Durante el resto del día, tenemos una variada cafetería.</p><p>¡Horario de happy hour todas las tardes!</p>';
+$lang['services-bar'] = '<h3>Bar</h3><p>El espacio ideal para comenzar el día. El bar del entrepiso le ofrece un excelente servicio de desayuno buffet, con productos artesanales y de primera calidad.';
+$lang['services-gym'] = '<h3>Gimnasio</h3><p>Contamos con un moderno gimnasio para aquellos que quieren mantenerse en forma mientras disfrutan de su estadía en el hotel. Equipos de primer nivel, ambiente climatizado y una decoracion cálida y acogedora para su mayor comodidad.</p>';
+
+
+
+// SALONES
+
+$lang['section-salones-title'] = 'Salones';
+$lang['salones-booking'] = 'Reserva este salón<i class="arrow_carrot-right"></i>';
+$lang['salon-1'] = '<h3>Salón Obelisco <span>25 personas</span></h3><p>Ubicado en la planta baja del hotel y totalmente insonorizado el Salón Obelisco está pensado para la excelencia de sus eventos y reuniones. Con una fina arquitectura y una decoración acorde, puede realizar aquí sus reuniones laborales y utilizar sus herramientas de trabajo.</p><p>El salón cuenta con LCD de 42’’, tarima, podio, minicomponente, proyector y pantalla, micrófonos solaperos y material de escritura.</p>';
+$lang['salon-2'] = '<h3>Salón 9 de Julio <span>34 personas</span></h3><p>El salon 9 de Julio es ideal para sus eventos y presentaciones con el mas alto nivel en calidad de servicio, sonido y ambientacion. Su armado dependera del destino que quiera imprimir al encuenetro de negocios y cuenta con todos los recursos en cuanto a tecnologia y servicios.</p><p>El salón cuenta con LCD de 32’’, tarima, podio, minicomponente, proyector y pantalla, micrófonos solaperos y material de escritura.</p>';
+
+
+// CONTACTO
+
+
 
 
 ?>

@@ -6,7 +6,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
-	<title><?php echo $lang['nav-item-2-title']; ?>&nbsp;-&nbsp;<?php echo $lang['TITLE']; ?></title>
+	<title><?php echo $lang['nav-item-3-title']; ?>&nbsp;-&nbsp;<?php echo $lang['TITLE']; ?></title>
 	
 	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 	<link rel="icon" href="img/favicon.ico" type="image/x-icon">
@@ -25,14 +25,14 @@
 	<div class="body-wrapper">
 		<?php include("includes/nav-panel.php"); ?>
 
-		<header class="header-default gastronomy">
+		<header class="header-default salones">
 			<?php include("includes/nav-default.php"); ?>
 			
 			<div class="header-default-content">
 				<h1 class="main-title">
 					<span class="line-1"></span>
 					<span class="line-2"></span>
-					<span class="text"><?php echo $lang['section-gastronomy-title']; ?></span>
+					<span class="text"><?php echo $lang['section-salones-title']; ?></span>
 					<span class="line-3"></span>
 					<span class="line-4"></span>
 				</h1>
@@ -41,22 +41,24 @@
 
 		<section class="section-list">
 			<div class="container">
-				<div class="list-item cf">
-					<div class="pic pic-1"></div>
+				<div class="list-item salon cf">
+					<div class="pic salon-1">
+						<div class="pic-overlay">
+							<a href="" class="btn btn-main btn-small"><?php echo $lang['salones-booking']; ?></a>
+						</div>
+					</div>
 					<div class="text">
-						<?php echo $lang['services-restaurant']; ?>				
+						<?php echo $lang['salon-1']; ?>				
 					</div>
 				</div>
-				<div class="list-item alt cf">
-					<div class="pic pic-2"></div>
-					<div class="text">
-						<?php echo $lang['services-bar']; ?>				
+				<div class="list-item salon alt cf">
+					<div class="pic salon-2">
+						<div class="pic-overlay">
+							<a href="" class="btn btn-main btn-small"><?php echo $lang['salones-booking']; ?></a>
+						</div>
 					</div>
-				</div>
-				<div class="list-item cf">
-					<div class="pic pic-3"></div>
 					<div class="text">
-						<?php echo $lang['services-gym']; ?>				
+						<?php echo $lang['salon-2']; ?>				
 					</div>
 				</div>
 			</div>

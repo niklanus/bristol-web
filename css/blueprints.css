@@ -1,3 +1,4 @@
+@charset "UTF-8";
 p, a, h1, h2, h3, h4, h5, li, span, i {
   -webkit-font-smoothing: antialiased; }
 
@@ -90,6 +91,7 @@ figure {
   margin: 1em 40px; }
 
 hr {
+  -moz-box-sizing: content-box;
   box-sizing: content-box;
   height: 0; }
 
@@ -140,7 +142,8 @@ input {
 
 input[type="checkbox"],
 input[type="radio"] {
-  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
   /* 1 */
   padding: 0;
   /* 2 */ }
@@ -151,6 +154,7 @@ input[type="number"]::-webkit-outer-spin-button {
 
 input[type="search"] {
   -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
   box-sizing: content-box; }
 
 input[type="search"]::-webkit-search-cancel-button,
@@ -912,6 +916,7 @@ th {
 .slick-slider {
   position: relative;
   display: block;
+  -moz-box-sizing: border-box;
   box-sizing: border-box;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -1299,8 +1304,112 @@ body.preloader {
 
   .imagelightbox-arrow-right {
     right: 0; } }
+/**
+ * Featherlight – ultra slim jQuery lightbox
+ * Version 1.2.0 - http://noelboss.github.io/featherlight/
+ *
+ * Copyright 2015, Noël Raoul Bossart (http://www.noelboss.com)
+ * MIT Licensed.
+**/
+@media all {
+  .featherlight {
+    display: none;
+    /* dimensions: spanning the background from edge to edge */
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    /* position: centering content */
+    text-align: center;
+    /* insures that the ::before pseudo element doesn't force wrap with fixed width content; */
+    white-space: nowrap;
+    /* styling */
+    cursor: pointer;
+    background: #333;
+    /* IE8 "hack" for nested featherlights */
+    background: transparent; }
+
+  /* support for nested featherlights. Does not work in IE8 (use JS to fix) */
+  .featherlight:last-of-type {
+    background: rgba(0, 0, 0, 0.8); }
+
+  .featherlight:before {
+    /* position: trick to center content vertically */
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    margin-right: -0.25em; }
+
+  .featherlight .featherlight-content {
+    /* make content container for positioned elements (close button) */
+    position: relative;
+    /* position: centering vertical and horizontal */
+    text-align: left;
+    vertical-align: middle;
+    display: inline-block;
+    /* dimensions: cut off images */
+    overflow: auto;
+    /* dimensions: handling small or empty content */
+    min-width: 30%;
+    /* dimensions: handling large content */
+    margin-left: 5%;
+    margin-right: 5%;
+    max-height: 95%;
+    /* styling */
+    background: #fff;
+    cursor: auto;
+    /* reset white-space wrapping */
+    white-space: normal; }
+
+  /* contains the content */
+  .featherlight .featherlight-inner {
+    /* make sure its visible */
+    display: block; }
+
+  .featherlight .featherlight-close-icon {
+    /* position: centering vertical and horizontal */
+    display: none;
+    position: absolute;
+    z-index: 9999;
+    top: 0;
+    right: 0;
+    /* dimensions: 25px x 25px */
+    line-height: 25px;
+    width: 25px;
+    /* styling */
+    cursor: pointer;
+    text-align: center;
+    font: Arial, sans-serif;
+    background: #fff;
+    /* Set the background in case it overlaps the content */
+    background: rgba(255, 255, 255, 0.3);
+    color: #000; }
+
+  .featherlight .featherlight-image {
+    /* styling */
+    width: 100%; }
+
+  .featherlight-iframe .featherlight-content {
+    /* removed the border for image croping since iframe is edge to edge */
+    border-bottom: 0;
+    padding: 0; }
+
+  .featherlight iframe {
+    /* styling */
+    border: none; } }
+/* handling phones and small screens */
+@media only screen and (max-width: 1024px) {
+  .featherlight .featherlight-content {
+    /* dimensions: maximize lightbox with for small screens */
+    margin-left: 10px;
+    margin-right: 10px;
+    max-height: 98%; } }
 * {
-  box-sizing: border-box; }
+  -moz-box-sizing: border-box;
+       box-sizing: border-box; }
 
 p, a, li, h1, h2, h3, h4, input, textarea {
   -webkit-font-smoothing: antialiased;
@@ -1357,11 +1466,32 @@ body {
       padding: 0px 32px;
       border-color: rgba(196, 152, 95, 0.7);
       background-color: rgba(196, 152, 95, 0.7); }
+    .btn.btn-main.btn-contact-red, .btn.btn-main.btn-contact-gold {
+      font-size: 0.9em;
+      width: 100%; }
+      .btn.btn-main.btn-contact-red i, .btn.btn-main.btn-contact-gold i {
+        font-size: 1.4em;
+        top: 2px;
+        position: relative; }
+    .btn.btn-main.btn-contact-red {
+      border-color: #f76657;
+      color: #f76657; }
+    .btn.btn-main.btn-contact-gold {
+      border-color: #c4985f;
+      color: #c4985f; }
   .btn.btn-main.btn-althover:hover {
     padding: 0px 24px;
     color: #444343;
     border-color: white;
     background-color: white; }
+    .btn.btn-main.btn-althover:hover.btn-contact-red {
+      border-color: #f76657;
+      background-color: #f76657;
+      color: white; }
+    .btn.btn-main.btn-althover:hover.btn-contact-gold {
+      border-color: #c4985f;
+      background-color: #c4985f;
+      color: white; }
   .btn.btn-small {
     height: 38px;
     line-height: 38px;
@@ -1636,8 +1766,29 @@ header {
       padding-bottom: 40px; }
     .header-default.gastronomy .main-title {
       padding: 0 40px; }
-      .header-default.gastronomy .main-title .text span {
+  .header-default.salones {
+    background: url(../img/header-salones-bg.jpg);
+    background-size: cover;
+    color: white; }
+    .header-default.salones .header-default-content {
+      padding-bottom: 40px; }
+    .header-default.salones .main-title {
+      padding: 0 40px; }
+      .header-default.salones .main-title .text span {
         opacity: 0; }
+  .header-default.contact .nav-default {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(transparent));
+    /* Saf4+, Chrome */
+    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.7), transparent);
+    /* Chrome 10+, Saf5.1+, iOS 5+ */
+    /* FF3.6 */
+    /* IE10 */
+    /* Opera 11.10+ */
+    background-image: linear-gradient(top, rgba(0, 0, 0, 0.7), transparent);
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='rgba(0, 0, 0, 0.7)', EndColorStr='transparent');
+    padding-bottom: 35px; }
+    .header-default.contact .nav-default .nav-topbar {
+      background: transparent; }
 
 .nav-logo {
   width: 141px;
@@ -1894,13 +2045,33 @@ section.section-list {
       float: left;
       display: inline-block; }
     section.section-list .list-item .pic {
-      background-size: cover; }
+      background-size: cover;
+      position: relative; }
       section.section-list .list-item .pic.pic-1 {
         background-image: url(../img/restaurant-1.jpg); }
       section.section-list .list-item .pic.pic-2 {
         background-image: url(../img/bar-1.jpg); }
       section.section-list .list-item .pic.pic-3 {
         background-image: url(../img/gym-1.jpg); }
+      section.section-list .list-item .pic.salon-1 {
+        background-image: url(../img/salon-1.jpg); }
+      section.section-list .list-item .pic.salon-2 {
+        background-image: url(../img/salon-2.jpg); }
+      section.section-list .list-item .pic .pic-overlay {
+        width: 100%;
+        padding: 60px 0 25px 0;
+        text-align: center;
+        position: absolute;
+        bottom: 0;
+        background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), to(rgba(0, 0, 0, 0.8)));
+        /* Saf4+, Chrome */
+        background-image: -webkit-linear-gradient(top, transparent, rgba(0, 0, 0, 0.8));
+        /* Chrome 10+, Saf5.1+, iOS 5+ */
+        /* FF3.6 */
+        /* IE10 */
+        /* Opera 11.10+ */
+        background-image: linear-gradient(top, transparent, rgba(0, 0, 0, 0.8));
+        filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='transparent', EndColorStr='rgba(0, 0, 0, 0.8)'); }
     section.section-list .list-item .text {
       padding: 0px 35px;
       border: solid;
@@ -1909,6 +2080,31 @@ section.section-list {
       section.section-list .list-item .text h3 {
         font-size: 1.6em;
         font-weight: 600; }
+    section.section-list .list-item.salon .text {
+      font-size: 0.9em; }
+    @media only screen and (max-width: 440px) {
+      section.section-list .list-item.salon h3 {
+        font-size: 1.8em; } }
+    section.section-list .list-item.salon h3 span {
+      background-color: #c4985f;
+      font-size: 14px;
+      text-transform: uppercase;
+      color: white;
+      padding: 10px 14px 8px 14px;
+      margin-left: 15px;
+      position: relative;
+      top: -2px; }
+      @media only screen and (max-width: 440px) {
+        section.section-list .list-item.salon h3 span {
+          width: 140px;
+          display: block;
+          text-align: center;
+          margin: 10px 0 0 0;
+          top: auto; } }
+    section.section-list .list-item.alt .pic {
+      float: right; }
+    section.section-list .list-item.alt .text {
+      border-width: 1px 0px 1px 1px; }
     @media only screen and (max-width: 991px) {
       section.section-list .list-item .pic {
         width: 40%; }
@@ -1920,14 +2116,84 @@ section.section-list {
         section.section-list .list-item .pic, section.section-list .list-item .text {
           width: 100%;
           display: block;
-          float: none; }
+          float: none !important; }
         section.section-list .list-item .pic {
           height: 230px; }
         section.section-list .list-item .text {
-          height: auto; } }
+          height: auto;
+          padding: 0px 25px; }
+          section.section-list .list-item .text p:last-child {
+            padding-bottom: 15px; } }
     @media only screen and (max-width: 550px) {
       section.section-list .list-item .pic {
         height: 180px; } }
+
+section.contact-items {
+  background: #353434;
+  z-index: 5;
+  position: relative; }
+  section.contact-items .container {
+    position: relative;
+    top: -110px; }
+  section.contact-items .contact-item {
+    background: white;
+    text-align: center;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3); }
+    @media only screen and (max-width: 991px) {
+      section.contact-items .contact-item {
+        margin-bottom: 25px; } }
+    section.contact-items .contact-item .header {
+      background-color: #c4985f;
+      color: white;
+      padding: 28px 0;
+      height: 74px; }
+      section.contact-items .contact-item .header.alt {
+        background-color: #f76657; }
+      section.contact-items .contact-item .header h4 {
+        text-transform: uppercase;
+        font-size: 1.15em;
+        font-weight: 800;
+        line-height: 0;
+        margin: 0; }
+        section.contact-items .contact-item .header h4 i {
+          margin-right: 5px; }
+    section.contact-items .contact-item .content {
+      height: 210px;
+      padding: 40px 32px;
+      line-height: 1.35; }
+      section.contact-items .contact-item .content address {
+        font-weight: 400 !important;
+        font-style: normal;
+        margin-bottom: 30px; }
+        section.contact-items .contact-item .content address strong {
+          font-weight: 800 !important; }
+      section.contact-items .contact-item .content .contact-phone p, section.contact-items .contact-item .content .contact-fax p {
+        margin: 0;
+        font-size: 1.2em;
+        letter-spacing: -0.02em; }
+        section.contact-items .contact-item .content .contact-phone p span, section.contact-items .contact-item .content .contact-fax p span {
+          color: #8d8d8d;
+          font-style: italic; }
+      section.contact-items .contact-item .content .contact-phone .desc, section.contact-items .contact-item .content .contact-fax .desc {
+        color: #8d8d8d;
+        font-size: 0.9em; }
+      section.contact-items .contact-item .content .contact-phone p {
+        font-size: 1.5em; }
+      section.contact-items .contact-item .content .contact-phone .desc {
+        margin-bottom: 24px; }
+      section.contact-items .contact-item .content .contact-mail p {
+        margin: 0 0 25px 0; }
+      section.contact-items .contact-item .content .contact-mail .btn {
+        margin-bottom: 8px; }
+
+.body-contact {
+  background: #353434; }
+  .body-contact header nav .nav-topbar .topbar-fb a:hover i {
+    color: white; }
+
+@media only screen and (min-width: 992px) {
+  .body-contact.js {
+    overflow-y: hidden !important; } }
 
 footer {
   padding: 20px 0;
@@ -2003,5 +2269,82 @@ footer {
           top: 3px; }
       footer i {
         display: inline-block; } }
+
+#contact-map-container {
+  min-height: 250px !important; }
+
+.contact-map {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0; }
+
+.contact-iframe {
+  max-width: 500px; }
+  .contact-iframe h4 {
+    font-size: 1.2em;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 28px 0;
+    background-color: #c4985f;
+    color: white;
+    line-height: 0; }
+    .contact-iframe h4 i {
+      margin-right: 5px; }
+  .contact-iframe .contact-iframe-close {
+    display: block;
+    background-color: #ac7c3f;
+    color: white;
+    padding: 7px 0 9px 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    -webkit-transition: all 250ms;
+    transition: all 250ms; }
+    .contact-iframe .contact-iframe-close i {
+      font-size: 1.6em;
+      position: relative;
+      top: 3px; }
+    .contact-iframe .contact-iframe-close:hover {
+      background-color: #926a36; }
+
+.contact-iframe-container {
+  padding: 25px; }
+  .contact-iframe-container.centered {
+    text-align: center; }
+  .contact-iframe-container .spacer-top {
+    margin-top: 40px; }
+
+.form-item {
+  margin-bottom: 25px; }
+
+.label-default {
+  font-size: 0.8em;
+  text-transform: uppercase;
+  font-weight: 600; }
+
+.input-default[type="text"], .input-default[type="email"], .input-default[type="tel"] {
+  width: 100%;
+  border: 0px;
+  border-bottom: 2px solid #444343;
+  padding: 6px 20px 6px 0px;
+  margin-top: 2px;
+  outline: 0;
+  -webkit-transition: all 250ms;
+  transition: all 250ms; }
+  .input-default[type="text"]:focus, .input-default[type="email"]:focus, .input-default[type="tel"]:focus {
+    border-color: #c4985f; }
+
+.input-default.textarea {
+  width: 100%;
+  border: 2px solid #444343;
+  padding: 15px;
+  margin-top: 10px;
+  outline: 0;
+  -webkit-transition: all 250ms;
+  transition: all 250ms; }
+  .input-default.textarea:focus {
+    border-color: #c4985f; }
 
 /*# sourceMappingURL=blueprints.css.map */
