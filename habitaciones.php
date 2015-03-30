@@ -61,7 +61,7 @@
 		</header>
 
 		<section class="section-rooms cf">
-			<a class="room room-1" href="img/rooms-bg-1.jpg" data-imagelightbox="room-1-gallery">
+			<a class="room room-1" href="#" data-featherlight="rooms/room-1-es.php">
 				<div class="room-wrapper">
 					<div class="room-content">
 						<h3 class="main-title">
@@ -79,7 +79,7 @@
 				<a href="img/rooms-bg-4.jpg" data-imagelightbox="room-1-gallery"></a>
 			</a>
 			
-			<a class="room room-2" href="">
+			<a class="room room-2" href="#" data-featherlight="rooms/room-2-es.php">
 				<div class="room-wrapper">
 					<div class="room-content">
 						<h3 class="main-title">
@@ -93,7 +93,7 @@
 				</div>
 				<div class="room-bg"></div>
 			</a>
-			<a class="room room-3" href="">
+			<a class="room room-3" href="#" data-featherlight="rooms/room-3-es.php">
 				<div class="room-wrapper">
 					<div class="room-content">
 						<h3 class="main-title">
@@ -107,7 +107,7 @@
 				</div>
 				<div class="room-bg"></div>
 			</a>
-			<a class="room room-4" href="">
+			<a class="room room-4" href="#" data-featherlight="rooms/room-4-es.php">
 				<div class="room-wrapper">
 					<div class="room-content">
 						<h3 class="main-title">
@@ -125,184 +125,6 @@
 		
 		<?php include("includes/footer.php"); ?>
 	</div>
-
-	<script src="js/imagelightbox.min.js"></script>
-	
-	<script>
-	    /*$(function(){
-	        $('.room').imageLightbox();
-	    });*/
-
-		$( function(){
-				// ACTIVITY INDICATOR
-
-			var activityIndicatorOn = function()
-				{
-					$( '<div id="imagelightbox-loading"><div></div></div>' ).appendTo( 'body' );
-				},
-				activityIndicatorOff = function()
-				{
-					$( '#imagelightbox-loading' ).remove();
-				},
-
-
-				// OVERLAY
-
-				overlayOn = function()
-				{
-					$( '<div id="imagelightbox-overlay"></div>' ).appendTo( 'body' );
-				},
-				overlayOff = function()
-				{
-					$( '#imagelightbox-overlay' ).remove();
-				},
-
-
-				// CLOSE BUTTON
-
-				closeButtonOn = function( instance )
-				{
-					$( '<button type="button" id="imagelightbox-close" title="Close"></button>' ).appendTo( 'body' ).on( 'click touchend', function(){ $( this ).remove(); instance.quitImageLightbox(); return false; });
-				},
-				closeButtonOff = function()
-				{
-					$( '#imagelightbox-close' ).remove();
-				},
-
-
-				// CAPTION
-
-				captionOn = function()
-				{
-					var description = $( 'a[href="' + $( '#imagelightbox' ).attr( 'src' ) + '"] img' ).attr( 'alt' );
-					if( description.length > 0 )
-						$( '<div id="imagelightbox-caption">' + description + '</div>' ).appendTo( 'body' );
-				},
-				captionOff = function()
-				{
-					$( '#imagelightbox-caption' ).remove();
-				},
-
-
-				// NAVIGATION
-
-				navigationOn = function( instance, selector )
-				{
-					var images = $( selector );
-					if( images.length )
-					{
-						var nav = $( '<div id="imagelightbox-nav"></div>' );
-						for( var i = 0; i < images.length; i++ )
-							nav.append( '<button type="button"></button>' );
-
-						nav.appendTo( 'body' );
-						nav.on( 'click touchend', function(){ return false; });
-
-						var navItems = nav.find( 'button' );
-						navItems.on( 'click touchend', function()
-						{
-							var $this = $( this );
-							if( images.eq( $this.index() ).attr( 'href' ) != $( '#imagelightbox' ).attr( 'src' ) )
-								instance.switchImageLightbox( $this.index() );
-
-							navItems.removeClass( 'active' );
-							navItems.eq( $this.index() ).addClass( 'active' );
-
-							return false;
-						})
-						.on( 'touchend', function(){ return false; });
-					}
-				},
-				navigationUpdate = function( selector )
-				{
-					var items = $( '#imagelightbox-nav button' );
-					items.removeClass( 'active' );
-					items.eq( $( selector ).filter( '[href="' + $( '#imagelightbox' ).attr( 'src' ) + '"]' ).index( selector ) ).addClass( 'active' );
-				},
-				navigationOff = function()
-				{
-					$( '#imagelightbox-nav' ).remove();
-				},
-
-
-				// ARROWS
-
-				arrowsOn = function( instance, selector )
-				{
-					var $arrows = $( '<button type="button" class="imagelightbox-arrow imagelightbox-arrow-left"></button><button type="button" class="imagelightbox-arrow imagelightbox-arrow-right"></button>' );
-
-					$arrows.appendTo( 'body' );
-
-					$arrows.on( 'click touchend', function( e )
-					{
-						e.preventDefault();
-
-						var $this	= $( this ),
-							$target	= $( selector + '[href="' + $( '#imagelightbox' ).attr( 'src' ) + '"]' ),
-							index	= $target.index( selector );
-
-						if( $this.hasClass( 'imagelightbox-arrow-left' ) )
-						{
-							index = index - 1;
-							if( !$( selector ).eq( index ).length )
-								index = $( selector ).length;
-						}
-						else
-						{
-							index = index + 1;
-							if( !$( selector ).eq( index ).length )
-								index = 0;
-						}
-
-						instance.switchImageLightbox( index );
-						return false;
-					});
-				},
-				arrowsOff = function()
-				{
-					$( '.imagelightbox-arrow' ).remove();
-				};
-
-
-			var selectorA = 'a[data-imagelightbox="room-1-gallery"]';
-			var instanceA = $( selectorA ).imageLightbox(
-			{
-				onStart:		function(){ overlayOn(); arrowsOn( instanceA, selectorA ); closeButtonOn( instanceA ); },
-				onEnd:			function(){ overlayOff(); arrowsOff(); activityIndicatorOff(); closeButtonOff(); },
-				onLoadStart: 	function(){ activityIndicatorOn(); },
-				onLoadEnd:	 	function(){ $( '.imagelightbox-arrow' ).css( 'display', 'block' ); activityIndicatorOff(); }
-			});
-
-			var selectorB = 'a[data-imagelightbox="room-2-gallery"]';
-			var instanceB = $( selectorB ).imageLightbox(
-			{
-				onStart:		function(){ overlayOn(); arrowsOn( instanceB, selectorB ); closeButtonOn( instanceB ); },
-				onEnd:			function(){ overlayOff(); arrowsOff(); activityIndicatorOff(); closeButtonOff(); },
-				onLoadStart: 	function(){ activityIndicatorOn(); },
-				onLoadEnd:	 	function(){ $( '.imagelightbox-arrow' ).css( 'display', 'block' ); activityIndicatorOff(); }
-			});
-
-			var selectorC = 'a[data-imagelightbox="room-3-gallery"]';
-			var instanceC = $( selectorC ).imageLightbox(
-			{
-				onStart:		function(){ overlayOn(); arrowsOn( instanceC, selectorC ); closeButtonOn( instanceC ); },
-				onEnd:			function(){ overlayOff(); arrowsOff(); activityIndicatorOff(); closeButtonOff(); },
-				onLoadStart: 	function(){ activityIndicatorOn(); },
-				onLoadEnd:	 	function(){ $( '.imagelightbox-arrow' ).css( 'display', 'block' ); activityIndicatorOff(); }
-			});
-
-			var selectorD = 'a[data-imagelightbox="room-4-gallery"]';
-			var instanceD = $( selectorD ).imageLightbox(
-			{
-				onStart:		function(){ overlayOn(); arrowsOn( instanceD, selectorD ); closeButtonOn( instanceD ); },
-				onEnd:			function(){ overlayOff(); arrowsOff(); activityIndicatorOff(); closeButtonOff(); },
-				onLoadStart: 	function(){ activityIndicatorOn(); },
-				onLoadEnd:	 	function(){ $( '.imagelightbox-arrow' ).css( 'display', 'block' ); activityIndicatorOff(); }
-			});
-
-
-		});
-	</script>
 
 	<script>
 		$(window).load(function() {

@@ -486,6 +486,7 @@ header
 	z-index: 0
 
 	.slide
+		height: 100%
 
 		.bg
 			width: 100%
@@ -719,6 +720,75 @@ header
 		.room-bg
 			background-image: url(../img/rooms-bg-4.jpg)
 
+.room-iframe
+	width: 767px
+	background-color: $darkgray
+	
+	@media only screen and (max-width : 850px)
+		width: 600px
+
+	@media only screen and (max-width : 640px)
+		width: 500px
+
+	@media only screen and (max-width : 540px)
+		width: 400px
+
+	@media only screen and (max-width : 440px)
+		width: 320px
+
+	@media only screen and (max-width : 340px)
+		width: 300px
+
+	h4
+		font-size: 1.2em
+		text-align: center
+		text-transform: uppercase
+		margin: 0
+		padding: 28px 0
+		background-color: $gold
+		color: white
+		line-height: 0
+
+		i
+			margin-right: 5px
+
+	.rooms-amenities
+		color: white
+
+		span
+			opacity: 1 !important
+
+
+	.room-iframe-close
+		display: block
+		background-color: darken($gold,11)
+		color: white
+		padding: 7px 0 9px 0
+		text-align: center
+		text-transform: uppercase
+		font-size: 0.8em
+		@include hover
+
+		i
+			font-size: 1.6em
+			position: relative
+			top: 3px
+
+		&:hover
+			background-color: darken($gold,18)
+
+.room-iframe-container
+	padding: 25px
+
+	&.centered
+		text-align: center
+	
+	.spacer-top
+		margin-top: 40px
+
+
+
+
 
 section.section-list
 	padding: 40px 0
@@ -730,34 +800,36 @@ section.section-list
 		position: relative
 		background-color: darken(#F2F0ED,5)
 
-		.pic, .text
+		.list-item-slider, .text
 			width: 50%
 			height: 100%
 			float: left
 			display: inline-block
 
-		.pic
-			background-size: cover
+		.list-item-slider
 			position: relative
 
-			&.pic-1
-				background-image: url(../img/restaurant-1.jpg)
-			&.pic-2
-				background-image: url(../img/bar-1.jpg)
-			&.pic-3
-				background-image: url(../img/gym-1.jpg)
-			&.salon-1
-				background-image: url(../img/salon-1.jpg)
-			&.salon-2
-				background-image: url(../img/salon-2.jpg)
-			
-			.pic-overlay
+			div
 				width: 100%
-				padding: 60px 0 25px 0
-				text-align: center
-				position: absolute
-				bottom: 0
-				@include gradient(rgba(0,0,0,0), rgba(0,0,0,0.8))
+				height: 100%
+				//position: absolute
+				background-size: cover
+
+			.pic-1
+				background-image: url(../img/restaurant-1.jpg)
+			.pic-2
+				background-image: url(../img/bar-1.jpg)
+			.pic-3
+				background-image: url(../img/gym-1.jpg)
+
+			.salon-1
+				background-image: url(../img/salon-1.jpg)
+			.salon-2
+				background-image: url(../img/salon-2.jpg)
+
+			&.gastronomy
+				@media only screen and (max-width : 550px)
+					height: 180px
 
 
 		.text
@@ -797,14 +869,14 @@ section.section-list
 					top: auto
 
 		&.alt
-			.pic
+			.list-item-slider
 				float: right
 				
 			.text
 				border-width: 1px 0px 1px 1px
 		
 		@media only screen and (max-width : 991px)
-			.pic
+			.list-item-slider
 				width: 40%
 
 			.text
@@ -813,12 +885,12 @@ section.section-list
 		@media only screen and (max-width : 767px)
 			height: auto
 
-			.pic, .text
+			.list-item-slider, .text
 				width: 100%
 				display: block
 				float: none !important
 			
-			.pic
+			.list-item-slider
 				height: 230px
 
 			.text
@@ -828,9 +900,62 @@ section.section-list
 				p:last-child
 					padding-bottom: 15px
 
-		@media only screen and (max-width : 550px)
-			.pic
-				height: 180px
+		
+	.slider-wrapper
+		
+		.list-item-slider-wrapper
+			width: 50%
+			height: 100%
+			float: left
+			display: inline-block
+			position: relative
+			
+			.list-item-slider
+				width: auto
+				height: 100%
+				float: none
+				display: block
+
+			@media only screen and (max-width: 991px)
+				width: 40%
+
+		@media only screen and (max-width: 991px)
+			height: auto !important
+
+			.list-item-slider-wrapper
+				width: 100%
+				display: block
+				float: none !important
+				height: 250px
+
+			.list-item-slider
+				width: auto
+				height: 100%
+				float: none
+				display: block
+
+			.text
+				width: auto
+				height: 100%
+				float: none
+				display: block
+				border-width: 1px
+
+
+		.pic-overlay
+			width: 100%
+			padding: 60px 0 25px 0
+			text-align: center
+			position: absolute
+			bottom: 0
+			background: -moz-linear-gradient(top,  rgba(0,0,0,0.0) 0%, rgba(0,0,0,0.7) 100%)
+			background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.0)), color-stop(100%,rgba(0,0,0,0.7)))
+			background: -webkit-linear-gradient(top,  rgba(0,0,0,0.0) 0%,rgba(0,0,0,0.7) 100%)
+			background: -o-linear-gradient(top,  rgba(0,0,0,0.0) 0%,rgba(0,0,0,0.7) 100%)
+			background: -ms-linear-gradient(top,  rgba(0,0,0,0.0) 0%,rgba(0,0,0,0.7) 100%)
+			background: linear-gradient(to bottom,  rgba(0,0,0,0.0) 0%,rgba(0,0,0,0.7) 100%)
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#b3000000',GradientType=0 )
+			z-index: 10
 
 
 section.contact-items
@@ -841,6 +966,7 @@ section.contact-items
 	.container
 		position: relative
 		top: -110px
+		padding: 0
 
 
 	.contact-item
@@ -899,14 +1025,24 @@ section.contact-items
 
 			.contact-phone
 				p
+					margin-top: 34px
 					font-size: 1.5em
 
+					@media only screen and (max-width : 340px)
+						font-size: 1.4em
+					a
+						color: $darkgray
+
 				.desc
+					margin-top: auto
 					margin-bottom: 24px
 
 			.contact-mail
 				p
 					margin: 0 0 25px 0
+
+					@media only screen and (max-width : 340px)
+						font-size: 0.9em
 
 				.btn
 					margin-bottom: 8px
@@ -1035,7 +1171,26 @@ footer
 	top: 0
 
 .contact-iframe
-	max-width: 500px
+	width: 500px
+
+	@media only screen and (max-width : 540px)
+		width: 440px
+
+	@media only screen and (max-width : 460px)
+		width: 380px
+
+	@media only screen and (max-width : 420px)
+		#iframe-map-btn
+			font-size: 0.8em
+
+	@media only screen and (max-width : 400px)
+		width: 340px
+
+	@media only screen and (max-width : 360px)
+		width: 320px
+
+	@media only screen and (max-width : 340px)
+		width: 300px
 
 	h4
 		font-size: 1.2em

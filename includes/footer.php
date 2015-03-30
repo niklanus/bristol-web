@@ -7,7 +7,7 @@
 			</div>
 			<div class="col-xs-4 phone">
 				<i class="icon_phone"></i>
-				<p><em>(+54 9) </em>11 5252-6400</p>
+				<p><a href="tel:+549-11-5252-6400"><em>(+54 9) </em>11 5252-6400</a></p>
 			</div>
 			<div class="col-xs-4 mail">
 				<i class="icon_mail"></i>
@@ -25,4 +25,5 @@
 <script src="js/jquery.blast.min.js"></script>
 <script src="js/velocity.min.js"></script>
 <script src="js/velocity.ui.min.js"></script>
+<script src="js/featherlight.js"></script>
 <script src="js/scripts.js"></script>

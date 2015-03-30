@@ -16,12 +16,12 @@ $lang['nav-logo'] = '<a href="index.php?lang=es" class="nav-logo"></a>';
 
 
 $lang['nav-item-1-title'] = 'Habitaciones';
-$lang['nav-item-2-title'] = 'Gastronomía y servicios';
+$lang['nav-item-2-title'] = 'Gastronomía';
 $lang['nav-item-3-title'] = 'Salones';
 $lang['nav-item-4-title'] = 'Contacto';
 
 $lang['nav-item-1'] = '<a href="habitaciones.php?lang=es">Habitaciones</a>';
-$lang['nav-item-2'] = '<a href="gastronomia.php?lang=es">Gastronomía y servicios</a>';
+$lang['nav-item-2'] = '<a href="gastronomia.php?lang=es">Gastronomía</a>';
 $lang['nav-item-3'] = '<a href="salones.php?lang=es">Salones</a>';
 $lang['nav-item-4'] = '<a href="contacto.php?lang=es">Contacto</a>';
 $lang['nav-item-5'] = 'Reservas online';
@@ -61,19 +61,19 @@ $lang['amenities-7'] = 'Aislamiento acústico';
 $lang['amenities-8'] = 'Excelente vista Av. 9 de Julio<em>*</em>';
 $lang['amenities-warning'] = '* Sujeto a disponibilidad.';
 
-$lang['room-name-1'] = 'Doble estándar';
-$lang['room-name-2'] = 'Triple estándar';
-$lang['room-name-3'] = 'Suite junior';
-$lang['room-name-4'] = 'Suite de lujo';
+$lang['room-name-1'] = 'Estándar';
+$lang['room-name-2'] = 'Superior';
+$lang['room-name-3'] = 'New Design';
+$lang['room-name-4'] = 'Triple';
 
 
-// GASTRONOMÍA Y SERVICIOS
+// GASTRONOMÍA
 
-$lang['section-gastronomy-title'] = 'Gastronomía y servicios';
+$lang['section-gastronomy-title'] = 'Gastronomía';
 
 $lang['services-restaurant'] = '<h3>Restaurante</h3><p>En el entrepiso se encuentra el restaurante, donde podrá disfrutar de las exquisitas comidas de nuestra cocina. Para sus reuniones de negocio o placer, le ofrecemos el mejor servicio con variedad de menú ejecutivo o a la carta. Durante el resto del día, tenemos una variada cafetería.</p><p>¡Horario de happy hour todas las tardes!</p>';
 $lang['services-bar'] = '<h3>Bar</h3><p>El espacio ideal para comenzar el día. El bar del entrepiso le ofrece un excelente servicio de desayuno buffet, con productos artesanales y de primera calidad.';
-$lang['services-gym'] = '<h3>Gimnasio</h3><p>Contamos con un moderno gimnasio para aquellos que quieren mantenerse en forma mientras disfrutan de su estadía en el hotel. Equipos de primer nivel, ambiente climatizado y una decoracion cálida y acogedora para su mayor comodidad.</p>';
+$lang['services-breakfast'] = '<h3>Desayuno Buffet</h3><p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam quod vel recusandae! Tempora tenetur repellendus dicta, ea possimus dolor veritatis temporibus, hic aperiam, minima numquam sit magni assumenda voluptates voluptas!</p>';
 
 
 

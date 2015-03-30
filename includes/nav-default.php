@@ -3,9 +3,9 @@
 		<div class="topbar-lang">
 			<?php echo $lang['lang-selection']; ?>
 		</div>
-		<div class="topbar-fb">
+		<!-- <div class="topbar-fb">
 			<a href=""><i class="social_facebook_circle"></i><?php echo $lang['nav-facebook']; ?></a>
-		</div>
+		</div> -->
 	</div>
 	<div class="nav-main cf">
 		<?php echo $lang['nav-logo']; ?>

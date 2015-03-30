@@ -7,7 +7,7 @@ $(window).on("load resize",function(e){
 });
 
 $( document ).ready(function() {
-    $('.header-slider').slick({
+    /*$('.header-slider').slick({
 	  dots: false,
 	  arrows: false,
 	  autoplay: true,
@@ -18,7 +18,23 @@ $( document ).ready(function() {
 	  pauseOnHover: false
 	});
 
-	$('.header-slider').slick('slickPause');
+	$('.header-slider').slick('slickPause');*/
+
+	$('.room-slider').slick({
+		autoplay: true,
+		autoplaySpeed: 2000,
+		speed: 1500,
+		dots: false,
+		arrows: false
+	});
+
+	$('.list-item-slider').slick({
+		autoplay: true,
+		autoplaySpeed: 2000,
+		speed: 1500,
+		dots: false,
+		arrows: false
+	});
 
 	$('.nav-panel').css('display', 'block');
 

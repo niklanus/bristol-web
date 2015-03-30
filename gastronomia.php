@@ -42,21 +42,30 @@
 		<section class="section-list">
 			<div class="container">
 				<div class="list-item cf">
-					<div class="pic pic-1"></div>
+					<div class="list-item-slider gastronomy">
+						<div class="pic-1"></div>
+						<div class="pic-2"></div>
+					</div>
 					<div class="text">
 						<?php echo $lang['services-restaurant']; ?>				
 					</div>
 				</div>
 				<div class="list-item alt cf">
-					<div class="pic pic-2"></div>
+					<div class="list-item-slider gastronomy">
+						<div class="pic-1"></div>
+						<div class="pic-2"></div>
+					</div>
 					<div class="text">
 						<?php echo $lang['services-bar']; ?>				
 					</div>
 				</div>
 				<div class="list-item cf">
-					<div class="pic pic-3"></div>
+					<div class="list-item-slider gastronomy">
+						<div class="pic-1"></div>
+						<div class="pic-2"></div>
+					</div>
 					<div class="text">
-						<?php echo $lang['services-gym']; ?>				
+						<?php echo $lang['services-breakfast']; ?>				
 					</div>
 				</div>
 			</div>
