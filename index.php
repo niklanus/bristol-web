@@ -47,26 +47,6 @@
 					</div>
 					<div class="bg home-1"></div>
 				</div>
-				<div class="slide">
-					<div class="slide-centering">
-						<div class="slide-content">
-							<div class="slide-home-featured gastronomy">
-								<?php echo $lang['slide-home-2']; ?>
-							</div>
-						</div>
-					</div>
-					<div class="bg home-2"></div>
-				</div>
-				<div class="slide">
-					<div class="slide-centering">
-						<div class="slide-content">
-							<div class="slide-home-featured">
-								<?php echo $lang['slide-home-3']; ?>
-							</div>
-						</div>
-					</div>
-					<div class="bg home-3"></div>
-				</div>
 			</div>
 		</header>
 
@@ -118,7 +98,7 @@
 			    duration: 800,
 			    delay: 2000
 			  });
-			$('.header-slider').slick('slickPlay');
+			//$('.header-slider').slick('slickPlay');
 			})
 		//]]>
 	</script>
