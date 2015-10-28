@@ -1754,7 +1754,7 @@ header {
       .header-default .header-default-content .main-title {
         margin-bottom: 40px; } }
   .header-default.rooms {
-    background: url(../img/header-rooms-bg.jpg);
+    background: #444343;
     background-size: cover;
     color: white; }
   .header-default.gastronomy {
@@ -1943,8 +1943,8 @@ header {
   text-align: center; }
   .rooms-amenities span {
     background-color: #c4985f;
-    background-color: rgba(196, 152, 95, 0.7);
     text-transform: uppercase;
+    font-size: 0.9em;
     font-weight: 600;
     padding: 8px 14px;
     display: inline-block;
