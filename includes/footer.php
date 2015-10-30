@@ -1,18 +1,28 @@
 <footer>
 	<div class="container cf">
 		<div class="row">
-			<div class="col-xs-4 addr">
-				<i class="icon_pin"></i>
-				<p><strong>Cerrito 286</strong><br>Buenos Aires, Argentina</p>
+			<div class="col-sm-6">
+				<div class="footer-iram">
+					<p>El Hotel Bristol se encuentra certificado en la norma <span>IRAM-SECTUR</span> 42200.</p>
+				</div>
 			</div>
-			<div class="col-xs-4 phone">
-				<i class="icon_phone"></i>
-				<p><a href="tel:+549-11-5252-6400"><em>(+54 9) </em>11 5252-6400</a></p>
+			<div class="col-sm-6">
+				<ul class="footer-info">
+					<li class="addr">
+						<i class="icon_pin"></i>
+						<p><strong>Cerrito 286</strong><br>Buenos Aires, Argentina</p>
+					</li>
+					<li class="phone">
+						<i class="icon_phone"></i>
+						<p><a href="tel:+549-11-5252-6400"><em>(+54 9) </em>11 5252-6400</a></p>
+					</li>
+					<li class="mail">
+						<i class="icon_mail"></i>
+						<a href="mailto:reservas@hotelbristol.com.ar">reservas@hotelbristol.com.ar</a>
+					</li>
+				</ul>
 			</div>
-			<div class="col-xs-4 mail">
-				<i class="icon_mail"></i>
-				<a href="mailto:reservas@hotelbristol.com.ar">reservas@hotelbristol.com.ar</a>
-			</div>
+			
 		</div>
 	</div>
 </footer>

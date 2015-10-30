@@ -48,6 +48,11 @@
 					<div class="bg home-1"></div>
 				</div>
 			</div>
+
+			<!-- Widget TripAdvisor -->
+			<div class="tripadvisor">
+				<div id="TA_cdsratingsonlynarrow795" class="TA_cdsratingsonlynarrow"><ul id="GBFcQg1" class="TA_links yHP7Pv"><li id="E4N3kDJtkNW" class="xdFpynxH"><a target="_blank" href="http://www.tripadvisor.com.ar/"><img src="http://www.tripadvisor.com.ar/img/cdsi/img2/branding/tripadvisor_logo_transp_340x80-18034-2.png" alt="TripAdvisor"/></a></li></ul></div><script src="http://www.jscache.com/wejs?wtype=cdsratingsonlynarrow&uniq=795&locationId=306736&lang=es_AR&border=true&display_version=2"></script>
+			</div>
 		</header>
 
 		<section class="section-about" id="about">

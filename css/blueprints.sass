@@ -179,7 +179,6 @@ h3.main-title
 header
 	width: 100%
 	display: block
-	overflow: hidden
 	position: relative
 	top: 0
 	z-index: 1
@@ -1060,10 +1059,9 @@ section.contact-items
 		overflow-y: hidden !important
 
 footer
-	padding: 20px 0
+	padding: 55px 0 50px 0
 	background: darken($darkgray,6)
 	color: white
-	text-align: center
 
 	i, p
 		display: inline-block
@@ -1074,6 +1072,55 @@ footer
 
 	p
 		margin: 0
+
+	.col-sm-6:first-child
+		min-height: 150px
+		border-right: 1px solid #5D5D5D
+		position: relative
+		top: 3px
+
+	.footer-iram
+		float: right
+		max-width: 360px
+		min-height: 106px
+		background: url(../img/iram.png) no-repeat 0% 50%
+		background-size: 101px 106px
+		padding-left: 140px
+		font-size: 0.9em
+		margin-right: 30px
+		position: relative
+		top: 20px
+
+		p
+			position: relative
+			top: 25px
+
+		span
+			display: inline-block
+
+		@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi)
+			background-image: url(../img/iram@2x.png)
+
+		@media only screen and (max-width : 390px)
+			left: 20px !important
+			font-size: 0.8em
+			padding-right: 40px
+			background-size: 84px 88px
+			padding-left: 110px
+
+	.footer-info
+		list-style: none
+		padding: 0
+		margin: 0 0 0 35px
+
+		li
+			margin-bottom: 28px
+
+			&:last-child
+				margin-bottom: 0
+
+		@media only screen and (max-width : 360px)
+			font-size: 0.9em
 
 	.addr
 		i
@@ -1086,11 +1133,10 @@ footer
 			strong
 				font-weight: 800
 
-	.phone, .mail
-		position: relative
-		top: 9px
-
 	.phone
+		position: relative
+		top: -3px
+
 		i
 			position: relative
 			top: 3px
@@ -1098,68 +1144,26 @@ footer
 		em
 			color: lighten($darkgray,40)
 
-	@media only screen and (max-width : 991px)
-		padding: 27px 0 20px 0
-
-		i
-			display: block
-
-		.addr, .phone, .mai
-			left: -14px
-
-			i
-				top: auto
-
-		.addr
-			i
-				margin-bottom: 10px
-			p
-				text-align: center
-		.phone
-			top: 10px
-			i
-				margin-bottom: 8px
-		.mail
-			i
-				margin-bottom: 13px
-
-	@media only screen and (max-width : 830px)
-		font-size: 0.9em
-
 	@media only screen and (max-width : 767px)
-		font-size: 1em
+		padding: 0
 
-		.col-xs-4
-			display: block
-			float: none
-			width: 300px
-			margin: 0 auto 0 auto
-			padding: 12px 0
-			border-bottom: 1px solid lighten($darkgray,3)
-		
-		.addr, .phone, .mail
+		.col-sm-6:first-child
+			min-height: 0
+			background: $darkgray
+			border-right: 0px
+			padding: 30px 0
 			top: auto
-			left: auto
 
-		.addr
-			p
-				text-align: left
+		.footer-iram
+			top: auto
+			left: 10px
+			margin: 0 auto
+			float: none
 
-			i
-				top: -8px
-
-		.phone
-			i
-				top: 4px
-
-		.mail
-			border-bottom: none
-
-			i
-				top: 3px
-
-		i
-			display: inline-block
+		.footer-info
+			padding: 40px 0 40px 15px
+			max-width: 340px
+			margin: 0 auto
 
 #contact-map-container
 	min-height: 250px !important
@@ -1263,3 +1267,10 @@ footer
 
 	&:focus
 		border-color: $gold
+
+.tripadvisor
+	width: 136px
+	position: absolute
+	bottom: 0
+	right: 0
+	z-index: 100
