@@ -50,9 +50,16 @@ $lang['amenities-warning'] = '* Sujeto a disponibilidad.';
 			</div>
 
 		</div>
-								
+		
+		<script>
+			$('.room-slider').slick({
+				autoplay: true,
+				autoplaySpeed: 2000,
+				speed: 1500,
+				dots: false,
+				arrows: false
+			});
+		</script>			
 	</div>
-
-	<script src="js/scripts.js"></script>
 </body>
 </html>

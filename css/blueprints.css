@@ -1831,6 +1831,7 @@ header {
       width: 100%;
       height: 100%;
       background-size: cover;
+      background-position: 50% 50%;
       z-index: 0;
       position: absolute;
       top: 0; }
@@ -2108,10 +2109,14 @@ section.section-list {
         background-image: url(../img/bar-1.jpg); }
       section.section-list .list-item .list-item-slider .pic-3 {
         background-image: url(../img/gym-1.jpg); }
-      section.section-list .list-item .list-item-slider .salon-1 {
-        background-image: url(../img/salon-1.jpg); }
-      section.section-list .list-item .list-item-slider .salon-2 {
-        background-image: url(../img/salon-2.jpg); }
+      section.section-list .list-item .list-item-slider .salon-1-1 {
+        background-image: url(../img/salones/obelisco-1.jpg); }
+      section.section-list .list-item .list-item-slider .salon-1-2 {
+        background-image: url(../img/salones/obelisco-2.jpg); }
+      section.section-list .list-item .list-item-slider .salon-2-1 {
+        background-image: url(../img/salones/9dejulio-1.jpg); }
+      section.section-list .list-item .list-item-slider .salon-2-2 {
+        background-image: url(../img/salones/9dejulio-2.jpg); }
       @media only screen and (max-width: 550px) {
         section.section-list .list-item .list-item-slider.gastronomy {
           height: 180px; } }
@@ -2308,18 +2313,18 @@ footer {
     top: 3px; }
   footer .footer-iram {
     float: right;
-    max-width: 360px;
-    min-height: 106px;
+    max-width: 370px;
+    min-height: 116px;
     background: url(../img/iram.png) no-repeat 0% 50%;
-    background-size: 101px 106px;
-    padding-left: 140px;
+    background-size: 119px 116px;
+    padding-left: 150px;
     font-size: 0.9em;
     margin-right: 30px;
     position: relative;
     top: 20px; }
     footer .footer-iram p {
       position: relative;
-      top: 25px; }
+      top: 29px; }
     footer .footer-iram span {
       display: inline-block; }
     @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
@@ -2363,15 +2368,16 @@ footer {
       padding: 0; }
       footer .col-sm-6:first-child {
         min-height: 0;
-        background: #444343;
+        background: #008cd2;
         border-right: 0px;
-        padding: 30px 0;
+        padding: 15px 0;
         top: auto; }
       footer .footer-iram {
         top: auto;
         left: 10px;
         margin: 0 auto;
-        float: none; }
+        float: none;
+        padding-left: 140px; }
       footer .footer-info {
         padding: 40px 0 40px 15px;
         max-width: 340px;
@@ -2478,5 +2484,17 @@ footer {
   bottom: 0;
   right: 0;
   z-index: 100; }
+
+.text-salon {
+  padding-bottom: 25px !important; }
+  .text-salon a {
+    margin-top: 10px; }
+
+@media only screen and (max-width: 1199px) {
+  .text-salon p {
+    font-size: 0.9em; } }
+@media only screen and (max-width: 991px) {
+  .text-salon p {
+    font-size: 1em; } }
 
 /*# sourceMappingURL=blueprints.css.map */

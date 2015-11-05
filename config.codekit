@@ -2,6 +2,24 @@
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
 "creatorBuild": "18027",
 "files": {
+	"\/contact\/comollegar-es.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/contact\/comollegar-es.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/contact\/form-es.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/contact\/form-es.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/contacto.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -268,6 +286,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/iram.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4395,
+		"inputAbbreviatedPath": "\/img\/iram.png",
+		"outputAbbreviatedPath": "\/img\/iram.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/iram@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10596,
+		"inputAbbreviatedPath": "\/img\/iram@2x.png",
+		"outputAbbreviatedPath": "\/img\/iram@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/lang-br.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -389,24 +429,68 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/salon-1.jpg": {
+	"\/img\/salones\/9dejulio-1.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 76503,
-		"inputAbbreviatedPath": "\/img\/salon-1.jpg",
-		"outputAbbreviatedPath": "\/img\/salon-1.jpg",
+		"initialSize": 113272,
+		"inputAbbreviatedPath": "\/img\/salones\/9dejulio-1.jpg",
+		"outputAbbreviatedPath": "\/img\/salones\/9dejulio-1.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/salon-2.jpg": {
+	"\/img\/salones\/9dejulio-2.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 66382,
-		"inputAbbreviatedPath": "\/img\/salon-2.jpg",
-		"outputAbbreviatedPath": "\/img\/salon-2.jpg",
+		"initialSize": 126696,
+		"inputAbbreviatedPath": "\/img\/salones\/9dejulio-2.jpg",
+		"outputAbbreviatedPath": "\/img\/salones\/9dejulio-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/salones\/9dejulio-info.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 114065,
+		"inputAbbreviatedPath": "\/img\/salones\/9dejulio-info.png",
+		"outputAbbreviatedPath": "\/img\/salones\/9dejulio-info.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/salones\/obelisco-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 101673,
+		"inputAbbreviatedPath": "\/img\/salones\/obelisco-1.jpg",
+		"outputAbbreviatedPath": "\/img\/salones\/obelisco-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/salones\/obelisco-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 102545,
+		"inputAbbreviatedPath": "\/img\/salones\/obelisco-2.jpg",
+		"outputAbbreviatedPath": "\/img\/salones\/obelisco-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/salones\/obelisco-info.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 133093,
+		"inputAbbreviatedPath": "\/img\/salones\/obelisco-info.png",
+		"outputAbbreviatedPath": "\/img\/salones\/obelisco-info.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -489,411 +573,12 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/js\/featherlight-1.2.0\/assets\/images\/black.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 90798,
-		"inputAbbreviatedPath": "\/js\/featherlight-1.2.0\/assets\/images\/black.jpg",
-		"outputAbbreviatedPath": "\/js\/featherlight-1.2.0\/assets\/images\/black.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/js\/featherlight-1.2.0\/assets\/images\/black.thumb.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 9034,
-		"inputAbbreviatedPath": "\/js\/featherlight-1.2.0\/assets\/images\/black.thumb.jpg",
-		"outputAbbreviatedPath": "\/js\/featherlight-1.2.0\/assets\/images\/black.thumb.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/js\/featherlight-1.2.0\/assets\/images\/blue.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 19251,
-		"inputAbbreviatedPath": "\/js\/featherlight-1.2.0\/assets\/images\/blue.jpg",
-		"outputAbbreviatedPath": "\/js\/featherlight-1.2.0\/assets\/images\/blue.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/js\/featherlight-1.2.0\/assets\/images\/blue.thumb.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 8946,
-		"inputAbbreviatedPath": "\/js\/featherlight-1.2.0\/assets\/images\/blue.thumb.jpg",
-		"outputAbbreviatedPath": "\/js\/featherlight-1.2.0\/assets\/images\/blue.thumb.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/js\/featherlight-1.2.0\/assets\/images\/droplets.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 84573,
-		"inputAbbreviatedPath": "\/js\/featherlight-1.2.0\/assets\/images\/droplets.jpg",
-		"outputAbbreviatedPath": "\/js\/featherlight-1.2.0\/assets\/images\/droplets.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/js\/featherlight-1.2.0\/assets\/images\/droplets.thumb.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 11950,
-		"inputAbbreviatedPath": "\/js\/featherlight-1.2.0\/assets\/images\/droplets.thumb.jpg",
-		"outputAbbreviatedPath": "\/js\/featherlight-1.2.0\/assets\/images\/droplets.thumb.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/js\/featherlight-1.2.0\/assets\/images\/feed.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 45755,
-		"inputAbbreviatedPath": "\/js\/featherlight-1.2.0\/assets\/images\/feed.jpg",
-		"outputAbbreviatedPath": "\/js\/featherlight-1.2.0\/assets\/images\/feed.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/js\/featherlight-1.2.0\/assets\/images\/feed.thumb.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 16682,
-		"inputAbbreviatedPath": "\/js\/featherlight-1.2.0\/assets\/images\/feed.thumb.jpg",
-		"outputAbbreviatedPath": "\/js\/featherlight-1.2.0\/assets\/images\/feed.thumb.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/js\/featherlight-1.2.0\/assets\/images\/red_and_yellow.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 329461,
-		"inputAbbreviatedPath": "\/js\/featherlight-1.2.0\/assets\/images\/red_and_yellow.jpg",
-		"outputAbbreviatedPath": "\/js\/featherlight-1.2.0\/assets\/images\/red_and_yellow.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/js\/featherlight-1.2.0\/assets\/images\/red_and_yellow.thumb.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 27470,
-		"inputAbbreviatedPath": "\/js\/featherlight-1.2.0\/assets\/images\/red_and_yellow.thumb.jpg",
-		"outputAbbreviatedPath": "\/js\/featherlight-1.2.0\/assets\/images\/red_and_yellow.thumb.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/js\/featherlight-1.2.0\/assets\/images\/two_birds.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 52385,
-		"inputAbbreviatedPath": "\/js\/featherlight-1.2.0\/assets\/images\/two_birds.jpg",
-		"outputAbbreviatedPath": "\/js\/featherlight-1.2.0\/assets\/images\/two_birds.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/js\/featherlight-1.2.0\/assets\/images\/two_birds.thumb.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 10929,
-		"inputAbbreviatedPath": "\/js\/featherlight-1.2.0\/assets\/images\/two_birds.thumb.jpg",
-		"outputAbbreviatedPath": "\/js\/featherlight-1.2.0\/assets\/images\/two_birds.thumb.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/js\/featherlight-1.2.0\/assets\/javascripts\/jquery-1.7.0.min.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/featherlight-1.2.0\/assets\/javascripts\/jquery-1.7.0.min.js",
-		"outputAbbreviatedPath": "\/js\/featherlight-1.2.0\/assets\/javascripts\/min\/jquery-1.7.0.min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/js\/featherlight-1.2.0\/assets\/stylesheets\/bootstrap.min.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/featherlight-1.2.0\/assets\/stylesheets\/bootstrap.min.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/js\/featherlight-1.2.0\/CHANGELOG.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
-		"fileType": 4096,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/featherlight-1.2.0\/CHANGELOG.md",
-		"outputAbbreviatedPath": "\/js\/featherlight-1.2.0\/CHANGELOG.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/js\/featherlight-1.2.0\/CONTRIBUTING.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
-		"fileType": 4096,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/featherlight-1.2.0\/CONTRIBUTING.md",
-		"outputAbbreviatedPath": "\/js\/featherlight-1.2.0\/CONTRIBUTING.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/js\/featherlight-1.2.0\/gallery.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/featherlight-1.2.0\/gallery.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/js\/featherlight-1.2.0\/Gruntfile.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/featherlight-1.2.0\/Gruntfile.js",
-		"outputAbbreviatedPath": "\/js\/featherlight-1.2.0\/min\/Gruntfile-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/js\/featherlight-1.2.0\/index.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/featherlight-1.2.0\/index.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/js\/featherlight-1.2.0\/README.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
-		"fileType": 4096,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/featherlight-1.2.0\/README.md",
-		"outputAbbreviatedPath": "\/js\/featherlight-1.2.0\/README.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/js\/featherlight-1.2.0\/release\/featherlight.gallery.min.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/featherlight-1.2.0\/release\/featherlight.gallery.min.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/js\/featherlight-1.2.0\/release\/featherlight.gallery.min.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/featherlight-1.2.0\/release\/featherlight.gallery.min.js",
-		"outputAbbreviatedPath": "\/js\/featherlight-1.2.0\/release\/min\/featherlight.gallery.min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/js\/featherlight-1.2.0\/release\/featherlight.min.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/featherlight-1.2.0\/release\/featherlight.min.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/js\/featherlight-1.2.0\/release\/featherlight.min.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/featherlight-1.2.0\/release\/featherlight.min.js",
-		"outputAbbreviatedPath": "\/js\/featherlight-1.2.0\/release\/min\/featherlight.min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/js\/featherlight-1.2.0\/src\/featherlight.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/featherlight-1.2.0\/src\/featherlight.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/js\/featherlight-1.2.0\/src\/featherlight.gallery.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/featherlight-1.2.0\/src\/featherlight.gallery.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/js\/featherlight-1.2.0\/src\/featherlight.gallery.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/featherlight-1.2.0\/src\/featherlight.gallery.js",
-		"outputAbbreviatedPath": "\/js\/featherlight-1.2.0\/src\/min\/featherlight.gallery-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/js\/featherlight-1.2.0\/src\/featherlight.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/featherlight-1.2.0\/src\/featherlight.js",
-		"outputAbbreviatedPath": "\/js\/featherlight-1.2.0\/src\/min\/featherlight-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/js\/featherlight-1.2.0\/src\/gallery.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/featherlight-1.2.0\/src\/gallery.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/js\/featherlight-1.2.0\/src\/index.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/featherlight-1.2.0\/src\/index.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/js\/featherlight-1.2.0\/test\/featherlight.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/featherlight-1.2.0\/test\/featherlight.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/js\/featherlight-1.2.0\/test\/featherlight_gallery.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/featherlight-1.2.0\/test\/featherlight_gallery.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/js\/featherlight-1.2.0\/test\/featherlight_gallery_test.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/featherlight-1.2.0\/test\/featherlight_gallery_test.js",
-		"outputAbbreviatedPath": "\/js\/featherlight-1.2.0\/test\/min\/featherlight_gallery_test-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/js\/featherlight-1.2.0\/test\/featherlight_test.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/featherlight-1.2.0\/test\/featherlight_test.js",
-		"outputAbbreviatedPath": "\/js\/featherlight-1.2.0\/test\/min\/featherlight_test-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/js\/featherlight-1.2.0\/test\/fixtures\/photo.jpeg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 25519,
-		"inputAbbreviatedPath": "\/js\/featherlight-1.2.0\/test\/fixtures\/photo.jpeg",
-		"outputAbbreviatedPath": "\/js\/featherlight-1.2.0\/test\/fixtures\/photo.jpeg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/js\/featherlight-1.2.0\/test\/fixtures\/photo_large.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 38984,
-		"inputAbbreviatedPath": "\/js\/featherlight-1.2.0\/test\/fixtures\/photo_large.jpg",
-		"outputAbbreviatedPath": "\/js\/featherlight-1.2.0\/test\/fixtures\/photo_large.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/js\/featherlight-1.2.0\/test\/helpers\/patiently.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/featherlight-1.2.0\/test\/helpers\/patiently.js",
-		"outputAbbreviatedPath": "\/js\/featherlight-1.2.0\/test\/helpers\/min\/patiently-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
 	"\/js\/featherlight.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/featherlight.js",
-		"outputAbbreviatedPath": "\/js\/min\/featherlight-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/js\/imagelightbox.min.js": {
 		"fileType": 64,
 		"ignore": 1,
 		"ignoreWasSetByUser": 1,
-		"inputAbbreviatedPath": "\/js\/imagelightbox.min.js",
-		"outputAbbreviatedPath": "\/js\/min\/imagelightbox.min-min.js",
+		"inputAbbreviatedPath": "\/js\/featherlight.js",
+		"outputAbbreviatedPath": "\/js\/min\/featherlight-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -987,15 +672,6 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 0
 		},
-	"\/languages\/es_language.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/languages\/es_language.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/languages\/lang.es.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -1010,6 +686,86 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/languages\/languages.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/rooms\/room-1-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 53116,
+		"inputAbbreviatedPath": "\/rooms\/room-1-1.jpg",
+		"outputAbbreviatedPath": "\/rooms\/room-1-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/rooms\/room-1-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 48408,
+		"inputAbbreviatedPath": "\/rooms\/room-1-2.jpg",
+		"outputAbbreviatedPath": "\/rooms\/room-1-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/rooms\/room-1-3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 42186,
+		"inputAbbreviatedPath": "\/rooms\/room-1-3.jpg",
+		"outputAbbreviatedPath": "\/rooms\/room-1-3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/rooms\/room-1-4.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 55861,
+		"inputAbbreviatedPath": "\/rooms\/room-1-4.jpg",
+		"outputAbbreviatedPath": "\/rooms\/room-1-4.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/rooms\/room-1-es.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/rooms\/room-1-es.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/rooms\/room-2-es.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/rooms\/room-2-es.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/rooms\/room-3-es.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/rooms\/room-3-es.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/rooms\/room-4-es.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/rooms\/room-4-es.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0

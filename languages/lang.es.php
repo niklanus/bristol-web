@@ -83,6 +83,7 @@ $lang['section-salones-title'] = 'Salones';
 $lang['salones-booking'] = 'Reserva este salón<i class="arrow_carrot-right"></i>';
 $lang['salon-1'] = '<h3>Salón Obelisco <span>25 personas</span></h3><p>Ubicado en la planta baja del hotel y totalmente insonorizado el Salón Obelisco está pensado para la excelencia de sus eventos y reuniones. Con una fina arquitectura y una decoración acorde, puede realizar aquí sus reuniones laborales y utilizar sus herramientas de trabajo.</p><p>El salón cuenta con LCD de 42’’, tarima, podio, minicomponente, proyector y pantalla, micrófonos solaperos y material de escritura.</p>';
 $lang['salon-2'] = '<h3>Salón 9 de Julio <span>34 personas</span></h3><p>El salon 9 de Julio es ideal para sus eventos y presentaciones con el mas alto nivel en calidad de servicio, sonido y ambientacion. Su armado dependera del destino que quiera imprimir al encuenetro de negocios y cuenta con todos los recursos en cuanto a tecnologia y servicios.</p><p>El salón cuenta con LCD de 32’’, tarima, podio, minicomponente, proyector y pantalla, micrófonos solaperos y material de escritura.</p>';
+$lang['salones-armados'] = 'Referencia de armados';
 
 
 // CONTACTO

@@ -40,19 +40,20 @@
 		</header>
 
 		<section class="section-list">
-			<div class="container">
+			<div class="container container-salones">
 				<div class="list-item slider-wrapper salon cf">
 					<div class="list-item-slider-wrapper">
 						<div class="pic-overlay">
 							<a href="mailto:reservas@hotelbristol.com.ar?Subject=Reserva%20Salon%20Obelisco" class="btn btn-main btn-small"><?php echo $lang['salones-booking']; ?></a>
 						</div>
 						<div class="list-item-slider">
-							<div class="salon-1"></div>
-							<div class="salon-2"></div>
+							<div class="salon-1-1"></div>
+							<div class="salon-1-2"></div>
 						</div>
 					</div>
-					<div class="text">
-						<?php echo $lang['salon-1']; ?>				
+					<div class="text text-salon">
+						<?php echo $lang['salon-1']; ?>
+						<a href="#" class="btn btn-main btn-althover btn-contact-gold btn-small" data-featherlight="img/salones/obelisco-info.png"><?php echo $lang['salones-armados']; ?></a>
 					</div>
 				</div>
 				<div class="list-item slider-wrapper salon alt cf">
@@ -61,12 +62,13 @@
 							<a href="mailto:reservas@hotelbristol.com.ar?Subject=Reserva%20Salon%209%20de%20Julio" class="btn btn-main btn-small"><?php echo $lang['salones-booking']; ?></a>
 						</div>
 						<div class="list-item-slider">
-							<div class="salon-1"></div>
-							<div class="salon-2"></div>
+							<div class="salon-2-1"></div>
+							<div class="salon-2-2"></div>
 						</div>
 					</div>
-					<div class="text">
-						<?php echo $lang['salon-2']; ?>				
+					<div class="text text-salon">
+						<?php echo $lang['salon-2']; ?>
+						<a href="#" class="btn btn-main btn-althover btn-contact-gold btn-small" data-featherlight="img/salones/9dejulio-info.png"><?php echo $lang['salones-armados']; ?></a>
 					</div>
 				</div>
 			</div>
