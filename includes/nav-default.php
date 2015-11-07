@@ -17,7 +17,6 @@
 			<li class="nav-booking"><a href="http://www.booking.com/hotel/ar/bristol.html?aid=330843" target="_blank" class="btn btn-main btn-althover btn-small"><?php echo $lang['nav-item-5']; ?><i class="arrow_carrot-right"></i></a></li>
 			<li class="nav-panel-toggle">
 				<button class="menu" id="showMenu">
-					<i class="icon_menu"></i>
 					<span></span>
 				</button>
 			</li>

@@ -16,6 +16,7 @@ $(window).resize(function(e){
 }).resize();
 
 $( document ).ready(function() {
+    FastClick.attach(document.body);
     /*$('.header-slider').slick({
       dots: false,
       arrows: false,
@@ -57,13 +58,18 @@ $( document ).ready(function() {
         enableEscapeKey: true
     });
 
+    $('header, section').click(function(){
+        panel.close();
+    });
+
+    /*
     $(document).mouseup(function (e){
         var panelSelector = $('.nav-panel');
 
         if (!panelSelector.is(e.target) && panelSelector.has(e.target).length === 0) {
             panel.close();
         }
-    });
+    });*/
 
     $('.smooth').smoothScroll({
         easing: 'easeOutCubic',

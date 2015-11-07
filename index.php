@@ -12,7 +12,6 @@
 	<link rel="icon" href="img/favicon.ico" type="image/x-icon">
 
 	<link rel="stylesheet" href="css/blueprints.css">
-	<link rel="stylesheet" href="css/components/elegant-icons.css">
 	<link href='http://fonts.googleapis.com/css?family=Merriweather:400italic,400,900,300italic,300,700' rel='stylesheet' type='text/css'>
     
     <!--[if lt IE 9]>

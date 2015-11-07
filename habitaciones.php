@@ -12,7 +12,6 @@
 	<link rel="icon" href="img/favicon.ico" type="image/x-icon">
 
 	<link rel="stylesheet" href="css/blueprints.css">
-	<link rel="stylesheet" href="css/components/elegant-icons.css">
 	<link href='http://fonts.googleapis.com/css?family=Merriweather:400italic,400,900,300italic,300,700' rel='stylesheet' type='text/css'>
     
     <!--[if lt IE 9]>
@@ -37,31 +36,14 @@
 					<span class="line-4"></span>
 				</h1>
 
-				<div class="container rooms-info cf">
-					<div class="row">
-						<div class="col-sm-4">
-							<?php echo $lang['rooms-info-intro']; ?>
-						</div>
-						<div class="col-sm-8">
-							<div class="rooms-amenities">
-								<span><?php echo $lang['amenities-1']; ?></span><span>
-								<?php echo $lang['amenities-2']; ?></span><span>
-								<?php echo $lang['amenities-3']; ?></span><span>
-								<?php echo $lang['amenities-4']; ?></span><span>
-								<?php echo $lang['amenities-5']; ?></span><span>
-								<?php echo $lang['amenities-6']; ?></span><span>
-								<?php echo $lang['amenities-7']; ?></span><span>
-								<?php echo $lang['amenities-8']; ?></span>
-								<p class="warning"><?php echo $lang['amenities-warning']; ?></p>
-							</div>
-						</div>
-					</div>
-				</div>
+				<p class="container rooms-info cf">
+					<?php echo $lang['rooms-info-intro']; ?>
+				</p>
 			</div>
 		</header>
 
 		<section class="section-rooms cf">
-			<a class="room room-1" href="#" data-featherlight="rooms/room-1-es.php">
+			<a class="room room-estandar" href="#" data-featherlight="room-estandar_es.php">
 				<div class="room-wrapper">
 					<div class="room-content">
 						<h3 class="main-title">
@@ -78,8 +60,8 @@
 				<a href="img/rooms-bg-3.jpg" data-imagelightbox="room-1-gallery"></a>
 				<a href="img/rooms-bg-4.jpg" data-imagelightbox="room-1-gallery"></a>
 			</a>
-			
-			<a class="room room-2" href="#" data-featherlight="rooms/room-2-es.php">
+
+			<a class="room room-superior" href="#">
 				<div class="room-wrapper">
 					<div class="room-content">
 						<h3 class="main-title">
@@ -93,7 +75,8 @@
 				</div>
 				<div class="room-bg"></div>
 			</a>
-			<a class="room room-3" href="#" data-featherlight="rooms/room-3-es.php">
+
+			<a class="room room-new-design" href="#" data-featherlight="room-new-design_es.php">
 				<div class="room-wrapper">
 					<div class="room-content">
 						<h3 class="main-title">
@@ -107,7 +90,8 @@
 				</div>
 				<div class="room-bg"></div>
 			</a>
-			<a class="room room-4" href="#" data-featherlight="rooms/room-4-es.php">
+
+			<a class="room room-triple" href="#" data-featherlight="room-triple_es.php">
 				<div class="room-wrapper">
 					<div class="room-content">
 						<h3 class="main-title">
@@ -125,17 +109,6 @@
 		
 		<?php include("includes/footer.php"); ?>
 	</div>
-
-	<script>
-		$(window).load(function() {
-			$(".rooms-amenities span")
-			  .velocity("transition.slideDownIn", {
-			    duration: 1500,
-			    delay: 0,
-			    stagger: 220
-			  });
-			})
-	</script>
 	
 </body>
 </html>

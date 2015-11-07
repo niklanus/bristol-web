@@ -49,9 +49,9 @@ $lang['section-about-p6'] = 'Somos líderes en la atención personalizada y eso 
 // HABITACIONES
 
 $lang['section-rooms-title'] = 'Habitaciones';
-$lang['rooms-info-intro'] = '<p>Todas las habitaciones han sido diseñadas para satisfacer los requerimientos de nuestros huéspedes.</p><p>Son amplias, confortables, luminosas y dedicadamente decoradas.</p>';
+$lang['rooms-info-intro'] = 'Todas las habitaciones han sido diseñadas para satisfacer los requerimientos de nuestros huéspedes. Son amplias, confortables, luminosas y dedicadamente decoradas.';
 
-$lang['amenities-1'] = 'Cerradura electrónica';
+/*$lang['amenities-1'] = 'Cerradura electrónica';
 $lang['amenities-2'] = 'Frigobar';
 $lang['amenities-3'] = 'Room service';
 $lang['amenities-4'] = 'Wi-Fi gratis';
@@ -59,7 +59,20 @@ $lang['amenities-5'] = 'Aire Acondicionado';
 $lang['amenities-6'] = 'Seguridad 24 HS';
 $lang['amenities-7'] = 'Aislamiento acústico';
 $lang['amenities-8'] = 'Excelente vista Av. 9 de Julio<em>*</em>';
-$lang['amenities-warning'] = '* Sujeto a disponibilidad.';
+$lang['amenities-warning'] = '* Sujeto a disponibilidad.';*/
+
+$lang['amenities-1'] = 'Caja de seguridad';
+$lang['amenities-2'] = 'Aire acondicionado/calefacción';
+$lang['amenities-3'] = 'TV de pantalla plana';
+$lang['amenities-4'] = 'Wi-Fi';
+$lang['amenities-5'] = 'Escritorio';
+$lang['amenities-6'] = 'Frigobar';
+$lang['amenities-7'] = 'DDN/DDI';
+$lang['amenities-8-estandar'] = 'Vista al exterior<em>*</em>';
+$lang['amenities-8'] = 'Vista al exterior';
+$lang['amenities-9'] = 'Mobiliario estilo minimalista';
+
+$lang['amenities-warning'] = '* Sujeto a disponibilidad. La habitación estándar también se encuentra disponible con vista al interior, por un precio reducido.';
 
 $lang['room-name-1'] = 'Estándar';
 $lang['room-name-2'] = 'Superior';
@@ -71,9 +84,9 @@ $lang['room-name-4'] = 'Triple';
 
 $lang['section-gastronomy-title'] = 'Gastronomía';
 
-$lang['services-restaurant'] = '<h3>Restaurante</h3><p>En el entrepiso se encuentra el restaurante, donde podrá disfrutar de las exquisitas comidas de nuestra cocina. Para sus reuniones de negocio o placer, le ofrecemos el mejor servicio con variedad de menú ejecutivo o a la carta. Durante el resto del día, tenemos una variada cafetería.</p><p>¡Horario de happy hour todas las tardes!</p>';
-$lang['services-bar'] = '<h3>Bar</h3><p>El espacio ideal para comenzar el día. El bar del entrepiso le ofrece un excelente servicio de desayuno buffet, con productos artesanales y de primera calidad.';
-$lang['services-breakfast'] = '<h3>Desayuno Buffet</h3><p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam quod vel recusandae! Tempora tenetur repellendus dicta, ea possimus dolor veritatis temporibus, hic aperiam, minima numquam sit magni assumenda voluptates voluptas!</p>';
+$lang['services-restaurant'] = '<h3>Restaurante</h3><p>En el entrepiso se encuentra el restaurante, donde podrá disfrutar de las exquisitas comidas de nuestra cocina. Para sus reuniones de negocio o placer, le ofrecemos el mejor servicio con variedad de menú ejecutivo o a la carta. Durante el resto del día, tenemos una variada cafetería.</p>';
+$lang['services-bar'] = '<h3>Bar</h3><p>El espacio ideal para comenzar el día. El bar del entrepiso le ofrece un excelente servicio de desayuno buffet, con productos artesanales y de primera calidad.</p><p>¡Horario de happy hour todas las tardes!</p>';
+$lang['services-breakfast'] = '<h3>Desayuno a la carta</h3><p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam quod vel recusandae! Tempora tenetur repellendus dicta, ea possimus dolor veritatis temporibus, hic aperiam, minima numquam sit magni assumenda voluptates voluptas!</p>';
 
 
 

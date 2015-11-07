@@ -14,7 +14,10 @@
 					</li>
 					<li class="phone">
 						<i class="icon_phone"></i>
-						<p><a href="tel:+549-11-5252-6400"><em>(+54 9) </em>11 5252-6400</a></p>
+						<p>
+							<a href="tel:+5411-5252-6400"><em>(+54 11)</em> 5252-6400</a><br>
+							<a href="tel:+5411-4382-5400"><em>(+54 11)</em> 4382-5400</a>
+						</p>
 					</li>
 					<li class="mail">
 						<i class="icon_mail"></i>
@@ -28,6 +31,7 @@
 </footer>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="js/fastclick.js"></script>
 <script src="js/jquery.easing.js"></script>
 <script src="js/slick.min.js"></script>
 <script src="js/scotchPanels.min.js"></script>

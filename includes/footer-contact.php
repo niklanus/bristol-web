@@ -1,4 +1,5 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="js/fastclick.js"></script>
 <script src="js/jquery.easing.js"></script>
 <script src="js/slick.min.js"></script>
 <script src="js/scotchPanels.min.js"></script>

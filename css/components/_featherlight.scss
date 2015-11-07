@@ -52,6 +52,7 @@
 
 		/* dimensions: cut off images */
 		overflow: auto;
+		overflow-x: hidden;
 		//padding: 25px 25px 0;
 		//border-bottom: 25px solid transparent;
 
@@ -64,7 +65,7 @@
 		max-height: 95%;
 
 		/* styling */
-		background: #fff;
+		// background: #fff;
 		cursor: auto;
 
 		/* reset white-space wrapping */

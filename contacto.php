@@ -57,7 +57,8 @@
 						</div>
 						<div class="content">
 							<div class="contact-phone">
-								<p><a href="tel:+549-11-5252-6400"><span>(+54 11)</span> 5252-6400</a></p>
+								<p><a href="tel:+5411-5252-6400"><span>(+54 11)</span> 5252-6400</a></p>
+								<p><a href="tel:+5411-4382-5400"><span>(+54 11)</span> 4382-5400</a></p>
 								<p class="desc">lineas rotativas</p>
 							</div>
 							<!--<div class="contact-fax">
