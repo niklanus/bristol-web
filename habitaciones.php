@@ -11,6 +11,8 @@
 	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 	<link rel="icon" href="img/favicon.ico" type="image/x-icon">
 
+	<meta property="og:image" content="img/og-image.jpg" />
+
 	<link rel="stylesheet" href="css/blueprints.css">
 	<link href='http://fonts.googleapis.com/css?family=Merriweather:400italic,400,900,300italic,300,700' rel='stylesheet' type='text/css'>
     
@@ -61,7 +63,7 @@
 				<a href="img/rooms-bg-4.jpg" data-imagelightbox="room-1-gallery"></a>
 			</a>
 
-			<a class="room room-superior" href="#">
+			<a class="room room-superior" href="#" data-featherlight="room-superior_es.php">
 				<div class="room-wrapper">
 					<div class="room-content">
 						<h3 class="main-title">
