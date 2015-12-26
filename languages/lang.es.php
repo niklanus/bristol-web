@@ -38,7 +38,7 @@ $lang['slide-home-3'] = '<p><strong>Conocé nuestros</strong></p><h1>Salones</h1
 
 
 $lang['section-about-title'] = 'Acerca del hotel';
-$lang['section-about-p1'] = 'El <strong>Bristol</strong> es un elegante y confortable hotel 4 estrellas que abrió sus puertas en 1949 sobre la avenida más importante de la ciudad, la 9 de Julio, frente aI maximo exponente porteno: el Obelisco. Un estilo propio en la arquitectura y la decoración nos distinguen de los demás.';
+$lang['section-about-p1'] = 'El <strong>Bristol</strong> es un elegante y confortable hotel 4 estrellas que abrió sus puertas en 1949 sobre la avenida más importante de la ciudad, la 9 de Julio, frente aI máximo exponente porteño: el Obelisco. Un estilo propio en la arquitectura y la decoración nos distinguen de los demás.';
 $lang['section-about-p2'] = 'Nuestra visión siempre ha sido dar un servicio muy personalizado, cálido, familiar, para que quienes pasan por nuestra casa, se sientan como en la suya.';
 $lang['section-about-p3'] = 'Por eso siempre hemos brindado una atención y un servicio de primera calidad en instalaciones, gastronomía y personal... Cada cambio que se realiza en nuestro hotel se hace bajo esta concepción.';
 $lang['section-about-p4'] = 'El Hotel cuenta con 125 habitaciones, suites, cómodos salones y un exclusivo gimnasio.';
@@ -95,7 +95,7 @@ $lang['services-breakfast'] = '<h3>Desayuno a la carta</h3><p> Lorem ipsum dolor
 $lang['section-salones-title'] = 'Salones';
 $lang['salones-booking'] = 'Reserva este salón<i class="arrow_carrot-right"></i>';
 $lang['salon-1'] = '<h3>Salón Obelisco <span>25 personas</span></h3><p>Ubicado en la planta baja del hotel y totalmente insonorizado el Salón Obelisco está pensado para la excelencia de sus eventos y reuniones. Con una fina arquitectura y una decoración acorde, puede realizar aquí sus reuniones laborales y utilizar sus herramientas de trabajo.</p><p>El salón cuenta con LCD de 42’’, tarima, podio, minicomponente, proyector y pantalla, micrófonos solaperos y material de escritura.</p>';
-$lang['salon-2'] = '<h3>Salón 9 de Julio <span>34 personas</span></h3><p>El salon 9 de Julio es ideal para sus eventos y presentaciones con el mas alto nivel en calidad de servicio, sonido y ambientacion. Su armado dependera del destino que quiera imprimir al encuenetro de negocios y cuenta con todos los recursos en cuanto a tecnologia y servicios.</p><p>El salón cuenta con LCD de 32’’, tarima, podio, minicomponente, proyector y pantalla, micrófonos solaperos y material de escritura.</p>';
+$lang['salon-2'] = '<h3>Salón 9 de Julio <span>34 personas</span></h3><p>El salón 9 de Julio es ideal para sus eventos y presentaciones con el más alto nivel en calidad de servicio, sonido y ambientación. Su armado dependerá del destino que quiera imprimir al encuentro de negocios y cuenta con todos los recursos en cuanto a tecnología y servicios.</p><p>El salón cuenta con LCD de 32’’, tarima, podio, minicomponente, proyector y pantalla, micrófonos solaperos y material de escritura.</p>';
 $lang['salones-armados'] = 'Referencia de armados';
 
 
