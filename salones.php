@@ -1,7 +1,7 @@
 <?php include_once("languages/languages.php"); ?>
 <!DOCTYPE html>
-<!--[if IE 8]>    <html lang="en-us" class="ie8"> <![endif]-->
-<!--[if lt IE 9]><!--> <html lang="es" class="ie9plus"> <!--<![endif]-->
+<!--[if IE 8]>    <html lang="<?php echo $lang['lang-code']; ?>" class="ie8"> <![endif]-->
+<!--[if lt IE 9]><!--> <html lang="<?php echo $lang['lang-code']; ?>" class="ie9plus"> <!--<![endif]-->
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">

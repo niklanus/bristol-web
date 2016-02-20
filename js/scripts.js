@@ -15,7 +15,7 @@ $(window).resize(function(e){
     
 }).resize();
 
-$( document ).ready(function() {
+$(document).ready(function() {
     FastClick.attach(document.body);
     /*$('.header-slider').slick({
       dots: false,

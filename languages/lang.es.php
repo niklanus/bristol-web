@@ -6,6 +6,8 @@ Language: Spanish
 */
  
 $lang = array();
+
+$lang['lang-code'] = 'es';
  
 $lang['TITLE'] = 'Hotel Bristol - Buenos Aires';
 
@@ -27,7 +29,7 @@ $lang['nav-item-4'] = '<a href="contacto.php?lang=es">Contacto</a>';
 $lang['nav-item-5'] = 'Reservas online';
 
 $lang['nav-facebook'] = 'Visita nuestro Facebook';
-$lang['lang-selection'] = '<a href="" class="lang br"></a><a href="" class="lang en"></a>';
+$lang['lang-selection'] = '<a href="?lang=en" class="lang en"></a>';
 
 
 // HOME
@@ -79,14 +81,18 @@ $lang['room-name-2'] = 'Superior';
 $lang['room-name-3'] = 'New Design';
 $lang['room-name-4'] = 'Triple';
 
+$lang['room-name-1-full'] = 'Habitación Estándar';
+$lang['room-name-2-full'] = 'Habitación Superior';
+$lang['room-name-3-full'] = 'Habitación New Design';
+$lang['room-name-4-full'] = 'Habitación Triple';
 
 // GASTRONOMÍA
 
 $lang['section-gastronomy-title'] = 'Gastronomía';
 
-$lang['services-restaurant'] = '<h3>Restaurante</h3><p>En el entrepiso se encuentra el restaurante, donde podrá disfrutar de las exquisitas comidas de nuestra cocina. Para sus reuniones de negocio o placer, le ofrecemos el mejor servicio con variedad de menú ejecutivo o a la carta. Durante el resto del día, tenemos una variada cafetería.</p>';
-$lang['services-bar'] = '<h3>Bar</h3><p>El espacio ideal para comenzar el día. El bar del entrepiso le ofrece un excelente servicio de desayuno buffet, con productos artesanales y de primera calidad.</p><p>¡Horario de happy hour todas las tardes!</p>';
-$lang['services-breakfast'] = '<h3>Desayuno a la carta</h3><p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam quod vel recusandae! Tempora tenetur repellendus dicta, ea possimus dolor veritatis temporibus, hic aperiam, minima numquam sit magni assumenda voluptates voluptas!</p>';
+$lang['services-restaurant'] = '<h3>Bar/Restaurante</h3><p>En el entrepiso se encuentra ubicado el Salón del Plata donde brindamos un excelente servicio de desayuno personalizado, a la carta, con productos artesanales y de primera calidad. También podrá disfrutar las exquisitas comidas de nuestra cocina. Durante el resto del día disponemos de una variada cafetería. Es el lugar ideal para sus reuniones de negocio o placer.</p>';
+/*$lang['services-bar'] = '<h3>Bar</h3><p>El espacio ideal para comenzar el día. El bar del entrepiso le ofrece un excelente servicio de desayuno buffet, con productos artesanales y de primera calidad.</p><p>¡Horario de happy hour todas las tardes!</p>';
+$lang['services-breakfast'] = '<h3>Desayuno a la carta</h3><p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam quod vel recusandae! Tempora tenetur repellendus dicta, ea possimus dolor veritatis temporibus, hic aperiam, minima numquam sit magni assumenda voluptates voluptas!</p>';*/
 
 
 
@@ -94,15 +100,43 @@ $lang['services-breakfast'] = '<h3>Desayuno a la carta</h3><p> Lorem ipsum dolor
 
 $lang['section-salones-title'] = 'Salones';
 $lang['salones-booking'] = 'Reserva este salón<i class="arrow_carrot-right"></i>';
-$lang['salon-1'] = '<h3>Salón Obelisco <span>25 personas</span></h3><p>Ubicado en la planta baja del hotel y totalmente insonorizado el Salón Obelisco está pensado para la excelencia de sus eventos y reuniones. Con una fina arquitectura y una decoración acorde, puede realizar aquí sus reuniones laborales y utilizar sus herramientas de trabajo.</p><p>El salón cuenta con LCD de 42’’, tarima, podio, minicomponente, proyector y pantalla, micrófonos solaperos y material de escritura.</p>';
-$lang['salon-2'] = '<h3>Salón 9 de Julio <span>34 personas</span></h3><p>El salón 9 de Julio es ideal para sus eventos y presentaciones con el más alto nivel en calidad de servicio, sonido y ambientación. Su armado dependerá del destino que quiera imprimir al encuentro de negocios y cuenta con todos los recursos en cuanto a tecnología y servicios.</p><p>El salón cuenta con LCD de 32’’, tarima, podio, minicomponente, proyector y pantalla, micrófonos solaperos y material de escritura.</p>';
+$lang['salon-1'] = '<h3>Salón Obelisco <span>25 personas</span></h3><p>Ubicado en la planta baja del hotel y totalmente insonorizado el Salón Obelisco está pensado para la excelencia de sus eventos y reuniones. Con una fina arquitectura y una decoración acorde, puede realizar aquí sus reuniones laborales y utilizar sus herramientas de trabajo.</p><p>El salón cuenta con LCD de 42", tarima, podio, minicomponente, proyector y pantalla, micrófonos solaperos y material de escritura.</p>';
+$lang['salon-2'] = '<h3>Salón 9 de Julio <span>34 personas</span></h3><p>El salón 9 de Julio es ideal para sus eventos y presentaciones con el más alto nivel en calidad de servicio, sonido y ambientación. Su armado dependerá del destino que quiera imprimir al encuentro de negocios y cuenta con todos los recursos en cuanto a tecnología y servicios.</p><p>El salón cuenta con LCD de 32", podio, minicomponente, micrófonos solaperos y material de escritura.</p>';
 $lang['salones-armados'] = 'Referencia de armados';
 
 
 // CONTACTO
 
+$lang['contact-location'] = 'Ubicación';
+$lang['contact-phone'] = 'Teléfono';
+$lang['contact-phone-info'] = 'Lineas rotativas';
+$lang['contact-email'] = 'Email';
+$lang['contact-email-send'] = 'Enviar email';
+$lang['contact-email-form'] = 'Form. contacto';
+$lang['contact-directions'] = 'Cómo llegar';
 
+// COMO LLEGAR
 
+$lang['directions-from-city'] = 'Desde Ciudad de Buenos Aires';
+$lang['directions-map'] = 'Buscar en mapa';
+$lang['directions-gps'] = 'Coordenadas GPS';
+$lang['directions-gps-coordinates'] = 'Latitud: -34.6051<br>Longitud: -58.3821';
+
+// FORMULARIO CONTACTO
+
+$lang['contact-form-title'] = 'Formulario de contacto';
+$lang['contact-form-name'] = 'Nombre';
+$lang['contact-form-email'] = 'Email';
+$lang['contact-form-phone'] = 'Teléfono';
+$lang['contact-form-message'] = 'Mensaje';
+$lang['contact-form-send'] = 'Enviar';
+
+$lang['contact-form-success'] = 'Su mensaje ha sido enviado.';
+$lang['contact-form-error'] = 'Ha ocurrido un error, por favor intente nuevamente más tarde.';
+
+// UI
+
+$lang['close'] = 'Cerrar';
 
 ?>
 

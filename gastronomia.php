@@ -1,7 +1,7 @@
 <?php include_once("languages/languages.php"); ?>
 <!DOCTYPE html>
-<!--[if IE 8]>    <html lang="en-us" class="ie8"> <![endif]-->
-<!--[if lt IE 9]><!--> <html lang="es" class="ie9plus"> <!--<![endif]-->
+<!--[if IE 8]>    <html lang="<?php echo $lang['lang-code']; ?>" class="ie8"> <![endif]-->
+<!--[if lt IE 9]><!--> <html lang="<?php echo $lang['lang-code']; ?>" class="ie9plus"> <!--<![endif]-->
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
@@ -45,28 +45,11 @@
 				<div class="list-item cf">
 					<div class="list-item-slider gastronomy">
 						<div class="pic-restaurant-1"></div>
-						<div class="pic-restaurant-2"></div>
+						<div class="pic-bar-1"></div>
+						<div class="pic-breakfast-1"></div>
 					</div>
 					<div class="text">
 						<?php echo $lang['services-restaurant']; ?>				
-					</div>
-				</div>
-				<div class="list-item alt cf">
-					<div class="list-item-slider gastronomy">
-						<div class="pic-bar-1"></div>
-					</div>
-					<div class="text">
-						<?php echo $lang['services-bar']; ?>				
-					</div>
-				</div>
-				<div class="list-item cf">
-					<div class="list-item-slider gastronomy">
-						<div class="pic-breakfast-1"></div>
-						<div class="pic-breakfast-2"></div>
-						<div class="pic-breakfast-3"></div>
-					</div>
-					<div class="text">
-						<?php echo $lang['services-breakfast']; ?>				
 					</div>
 				</div>
 			</div>

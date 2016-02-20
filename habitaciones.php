@@ -45,7 +45,7 @@
 		</header>
 
 		<section class="section-rooms cf">
-			<a class="room room-estandar" href="#" data-featherlight="room-estandar_es.php">
+			<a class="room room-estandar" href="#" data-featherlight="room-standard.php">
 				<div class="room-wrapper">
 					<div class="room-content">
 						<h3 class="main-title">
@@ -63,7 +63,7 @@
 				<a href="img/rooms-bg-4.jpg" data-imagelightbox="room-1-gallery"></a>
 			</a>
 
-			<a class="room room-superior" href="#" data-featherlight="room-superior_es.php">
+			<a class="room room-superior" href="#" data-featherlight="room-superior.php">
 				<div class="room-wrapper">
 					<div class="room-content">
 						<h3 class="main-title">
@@ -78,7 +78,7 @@
 				<div class="room-bg"></div>
 			</a>
 
-			<a class="room room-new-design" href="#" data-featherlight="room-new-design_es.php">
+			<a class="room room-new-design" href="#" data-featherlight="room-new-design.php">
 				<div class="room-wrapper">
 					<div class="room-content">
 						<h3 class="main-title">
@@ -93,7 +93,7 @@
 				<div class="room-bg"></div>
 			</a>
 
-			<a class="room room-triple" href="#" data-featherlight="room-triple_es.php">
+			<a class="room room-triple" href="#" data-featherlight="room-triple.php">
 				<div class="room-wrapper">
 					<div class="room-content">
 						<h3 class="main-title">

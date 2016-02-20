@@ -1,7 +1,7 @@
 <?php include_once("languages/languages.php"); ?>
 <!DOCTYPE html>
-<!--[if IE 8]>    <html lang="en-us" class="ie8"> <![endif]-->
-<!--[if lt IE 9]><!--> <html lang="es" class="ie9plus"> <!--<![endif]-->
+<!--[if IE 8]>    <html lang="<?php echo $lang['lang-code']; ?>" class="ie8"> <![endif]-->
+<!--[if lt IE 9]><!--> <html lang="<?php echo $lang['lang-code']; ?>" class="ie9plus"> <!--<![endif]-->
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
@@ -14,7 +14,6 @@
 	<meta property="og:image" content="img/og-image.jpg" />
 
 	<link rel="stylesheet" href="css/blueprints.css">
-	<link rel="stylesheet" href="css/components/elegant-icons.css">
 	<link href='http://fonts.googleapis.com/css?family=Merriweather:400italic,400,900,300italic,300,700' rel='stylesheet' type='text/css'>
     
     <!--[if lt IE 9]>
@@ -40,7 +39,7 @@
 				<div class="col-md-4">
 					<div class="contact-item">
 						<div class="header alt">
-							<h4><i class="icon_pin"></i> Ubicación</h4>
+							<h4><i class="icon_pin"></i><?php echo $lang['contact-location']; ?></h4>
 						</div>
 						<div class="content">
 							<address>
@@ -48,20 +47,20 @@
 								Ciudad de Buenos Aires<br>
 								Argentina
 							</address>
-							<a href="#" data-featherlight="contact/comollegar-es.html" class="btn btn-main btn-althover btn-contact-red btn-small">Como llegar <i class="arrow_carrot-right"></i></a>
+							<a href="#" data-featherlight="directions.php" class="btn btn-main btn-althover btn-contact-red btn-small"><?php echo $lang['contact-directions']; ?> <i class="arrow_carrot-right"></i></a>
 						</div>
 					</div>
 				</div>
 				<div class="col-md-4">
 					<div class="contact-item">
 						<div class="header">
-							<h4><i class="icon_phone"></i> Teléfono</h4>
+							<h4><i class="icon_phone"></i> <?php echo $lang['contact-phone']; ?></h4>
 						</div>
 						<div class="content">
 							<div class="contact-phone">
 								<p><a href="tel:+5411-5252-6400"><span>(+54 11)</span> 5252-6400</a></p>
 								<p><a href="tel:+5411-4382-5400"><span>(+54 11)</span> 4382-5400</a></p>
-								<p class="desc">lineas rotativas</p>
+								<p class="desc"><?php echo $lang['contact-phone-info']; ?></p>
 							</div>
 							<!--<div class="contact-fax">
 								<p><span>(+54 11)</span> 4382-3284</p>
@@ -73,13 +72,13 @@
 				<div class="col-md-4">
 					<div class="contact-item">
 						<div class="header">
-							<h4><i class="icon_mail"></i> Email</h4>
+							<h4><i class="icon_mail"></i> <?php echo $lang['contact-email']; ?></h4>
 						</div>
 						<div class="content">
 							<div class="contact-mail">
 								<p>reservas@hotelbristol.com.ar</p>
-								<a href="mailto:reservas@hotelbristol.com.ar" class="btn btn-main btn-althover btn-contact-gold btn-small">Enviar email <i class="arrow_carrot-right"></i></a>
-								<a href="#" data-featherlight="contact/form-es.html" class="btn btn-main btn-althover btn-contact-gold btn-small">Form. contacto <i class="arrow_carrot-right"></i></a>
+								<a href="mailto:reservas@hotelbristol.com.ar" class="btn btn-main btn-althover btn-contact-gold btn-small"><?php echo $lang['contact-email-send']; ?> <i class="arrow_carrot-right"></i></a>
+								<a href="#" data-featherlight="contact-form.php" class="btn btn-main btn-althover btn-contact-gold btn-small"><?php echo $lang['contact-email-form']; ?> <i class="arrow_carrot-right"></i></a>
 							</div>
 						</div>
 					</div>
