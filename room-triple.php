@@ -1,6 +1,6 @@
+<?php include_once("languages/languages.php"); ?>
 <div class="room-iframe">
-	<?php include_once("languages/languages.php"); ?>
-
+	
 	<script>
 		$(document).ready(function() {
 			$('.room-slider').slick({

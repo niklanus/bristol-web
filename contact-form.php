@@ -1,5 +1,5 @@
+<?php include_once("languages/languages.php"); ?>
 <div class="contact-iframe">
-    <?php include_once("languages/languages.php"); ?>
 
     <a href="#" class="featherlight-close contact-iframe-close"><?php echo $lang['close']; ?> <i class="icon_close"></i></a>
     <h4><i class="icon_mail"></i> <?php echo $lang['contact-form-title']; ?></h4>

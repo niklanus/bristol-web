@@ -1,5 +1,5 @@
-<div class="room-iframe">
-	<?php include_once("languages/languages.php"); ?>
+<?php include_once("languages/languages.php"); ?>
+<div class="room-iframe">	
 
 	<script>
 		$(document).ready(function() {
