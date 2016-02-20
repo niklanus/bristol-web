@@ -138,5 +138,8 @@ $lang['contact-form-error'] = 'Ha ocurrido un error, por favor intente nuevament
 
 $lang['close'] = 'Cerrar';
 
-?>
+// FOOTER
 
+$lang['footer-iram'] = 'El Hotel Bristol se encuentra certificado en la norma <span>IRAM-SECTUR</span> 42200.';
+
+?>

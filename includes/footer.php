@@ -3,7 +3,7 @@
 		<div class="row">
 			<div class="col-sm-6">
 				<div class="footer-iram">
-					<p>El Hotel Bristol se encuentra certificado en la norma <span>IRAM-SECTUR</span> 42200.</p>
+					<p><?php echo $lang['footer-iram']; ?></p>
 				</div>
 			</div>
 			<div class="col-sm-6">

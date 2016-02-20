@@ -139,5 +139,9 @@ $lang['contact-form-error'] = 'There has been and error, please try again later.
 // UI
 
 $lang['close'] = 'Close';
+
+// FOOTER
+
+$lang['footer-iram'] = 'Bristol Hotel is officialy certified by the <span>IRAM-SECTUR</span> 42200 norm.';
 ?>
 
