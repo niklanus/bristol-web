@@ -49,7 +49,7 @@
 						</div>
 						<div class="list-item-slider">
 							<div class="salon-1-1"></div>
-							<div class="salon-1-2"></div>
+							<!--<div class="salon-1-2"></div>-->
 						</div>
 					</div>
 					<div class="text text-salon">

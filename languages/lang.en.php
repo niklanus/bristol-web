@@ -18,12 +18,12 @@ $lang['nav-logo'] = '<a href="index.php?lang=en" class="nav-logo"></a>';
 
 
 $lang['nav-item-1-title'] = 'Guestrooms';
-$lang['nav-item-2-title'] = 'Gastronomy';
+$lang['nav-item-2-title'] = 'Restaurant';
 $lang['nav-item-3-title'] = 'Meeting Rooms';
 $lang['nav-item-4-title'] = 'Contact';
 
 $lang['nav-item-1'] = '<a href="habitaciones.php?lang=en">Guestrooms</a>';
-$lang['nav-item-2'] = '<a href="gastronomia.php?lang=en">Gastronomy</a>';
+$lang['nav-item-2'] = '<a href="gastronomia.php?lang=en">Restaurant</a>';
 $lang['nav-item-3'] = '<a href="salones.php?lang=en">Function Rooms</a>';
 $lang['nav-item-4'] = '<a href="contacto.php?lang=en">Contact</a>';
 $lang['nav-item-5'] = 'Online booking';
@@ -35,7 +35,7 @@ $lang['lang-selection'] = '<a href="?lang=es" class="lang es"></a>';
 // HOME
 
 $lang['slide-home-1'] = '<p><strong>Welcome to</strong></p><h1>Bristol Hotel</h1><p><em>High quality service since 1949.</em></p><a href="#about" class="btn btn-main smooth">About the Hotel</a>';
-/*$lang['slide-home-2'] = '<p><strong>Our excellent</strong></p><h1>Gastronomy service</h1><p><em>Desayuno bufé, bar y restaurant con especialidades regionales e internacionales.</em></p><a href="gastronomia.php" class="btn btn-main smooth">See more</a>';
+/*$lang['slide-home-2'] = '<p><strong>Our excellent</strong></p><h1>Restaurant service</h1><p><em>Desayuno bufé, bar y restaurant con especialidades regionales e internacionales.</em></p><a href="gastronomia.php" class="btn btn-main smooth">See more</a>';
 $lang['slide-home-3'] = '<p><strong>Experience our</strong></p><h1>Meeting Rooms</h1><p><em>Completamente equipados para garantizar el éxito de reuniones de negocios, presentaciones y capacitaciones.</em></p><a href="salones.php" class="btn btn-main smooth">See more</a>';*/
 
 
@@ -74,7 +74,7 @@ $lang['amenities-8-estandar'] = 'External view<em>*</em>';
 $lang['amenities-8'] = 'External view';
 $lang['amenities-9'] = 'Minimalistic furniture';
 
-$lang['amenities-warning'] = '* Subject to availability. Standard guestrooms are also available with interior view at a reduced rate.';
+$lang['amenities-warning'] = '* Subject to availability.';
 
 $lang['room-name-1'] = 'Standard';
 $lang['room-name-2'] = 'Superior';
@@ -89,9 +89,9 @@ $lang['room-name-4-full'] = 'Triple Room';
 
 // GASTRONOMÍA
 
-$lang['section-gastronomy-title'] = 'Gastronomy';
+$lang['section-gastronomy-title'] = 'Restaurant';
 
-$lang['services-restaurant'] = '<h3>Bar/Restaurant</h3><p>Our restaurant is located in the Mezzanine Floor, where you will be able to enjoy the exquisite dishes of our kitchen. We also suggest you to enjoy our fine service with a choice of executive or a-la-carte menu for your business meetings or social gatherings. Customers are also invited to savour our coffee options all day long.</p>';
+$lang['services-restaurant'] = '<h3>Bar/Restaurant</h3><p>Our restaurant is located in the Mezzanine Floor, where you will be able to enjoy the exquisite dishes of our kitchen. We also suggest you to enjoy our fine service with a choice of executive or à la carte menu for your business meetings or social gatherings. Customers are also invited to savour our coffee options all day long.</p>';
 /*$lang['services-bar'] = '<h3>Bar</h3><p>El espacio ideal para comenzar el día. El bar del entrepiso le ofrece un excelente servicio de desayuno buffet, con productos artesanales y de primera calidad.</p><p>¡Horario de happy hour todas las tardes!</p>';
 $lang['services-breakfast'] = '<h3>Desayuno a la carta</h3><p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam quod vel recusandae! Tempora tenetur repellendus dicta, ea possimus dolor veritatis temporibus, hic aperiam, minima numquam sit magni assumenda voluptates voluptas!</p>';*/
 
@@ -114,7 +114,7 @@ $lang['contact-phone-info'] = '';
 $lang['contact-email'] = 'Email';
 $lang['contact-email-send'] = 'Send email';
 $lang['contact-email-form'] = 'Contact form';
-$lang['contact-directions'] = 'Directions';
+$lang['contact-directions'] = 'How to arrive';
 
 
 // COMO LLEGAR

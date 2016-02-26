@@ -51,7 +51,7 @@ $lang['section-about-p6'] = 'Somos líderes en la atención personalizada y eso 
 // HABITACIONES
 
 $lang['section-rooms-title'] = 'Habitaciones';
-$lang['rooms-info-intro'] = 'Todas las habitaciones han sido diseñadas para satisfacer los requerimientos de nuestros huéspedes. Son amplias, confortables, luminosas y dedicadamente decoradas.';
+$lang['rooms-info-intro'] = 'Todas las habitaciones han sido diseñadas para satisfacer los requerimientos de nuestros huéspedes. Son amplias, confortables, luminosas y delicadamente decoradas.';
 
 /*$lang['amenities-1'] = 'Cerradura electrónica';
 $lang['amenities-2'] = 'Frigobar';
@@ -74,7 +74,7 @@ $lang['amenities-8-estandar'] = 'Vista al exterior<em>*</em>';
 $lang['amenities-8'] = 'Vista al exterior';
 $lang['amenities-9'] = 'Mobiliario estilo minimalista';
 
-$lang['amenities-warning'] = '* Sujeto a disponibilidad. La habitación estándar también se encuentra disponible con vista al interior, por un precio reducido.';
+$lang['amenities-warning'] = '* Sujeto a disponibilidad.';
 
 $lang['room-name-1'] = 'Estándar';
 $lang['room-name-2'] = 'Superior';

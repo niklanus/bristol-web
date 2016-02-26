@@ -698,6 +698,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/salones\/obelisco-1-bak.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 101673,
+		"inputAbbreviatedPath": "\/img\/salones\/obelisco-1-bak.jpg",
+		"outputAbbreviatedPath": "\/img\/salones\/obelisco-1-bak.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/salones\/obelisco-1.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -709,13 +720,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/salones\/obelisco-2.jpg": {
+	"\/img\/salones\/obelisco-2-bak.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 102545,
-		"inputAbbreviatedPath": "\/img\/salones\/obelisco-2.jpg",
-		"outputAbbreviatedPath": "\/img\/salones\/obelisco-2.jpg",
+		"inputAbbreviatedPath": "\/img\/salones\/obelisco-2-bak.jpg",
+		"outputAbbreviatedPath": "\/img\/salones\/obelisco-2-bak.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -727,6 +738,17 @@
 		"initialSize": 133093,
 		"inputAbbreviatedPath": "\/img\/salones\/obelisco-info.png",
 		"outputAbbreviatedPath": "\/img\/salones\/obelisco-info.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/salones\/OBELISK ROOM (meeting).JPG": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3.69383e+06,
+		"inputAbbreviatedPath": "\/img\/salones\/OBELISK ROOM (meeting).JPG",
+		"outputAbbreviatedPath": "\/img\/salones\/OBELISK ROOM (meeting).JPG",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
