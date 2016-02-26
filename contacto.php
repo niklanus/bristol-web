@@ -11,7 +11,8 @@
 	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 	<link rel="icon" href="img/favicon.ico" type="image/x-icon">
 
-	<meta property="og:image" content="img/og-image.jpg" />
+	<meta name="description" content="<?php echo $lang['meta-description']; ?>">
+	<meta property="og:image" content="http://www.hotelbristol.com.ar/img/og-image.jpg" />
 
 	<link rel="stylesheet" href="css/blueprints.css">
 	<link href='http://fonts.googleapis.com/css?family=Merriweather:400italic,400,900,300italic,300,700' rel='stylesheet' type='text/css'>

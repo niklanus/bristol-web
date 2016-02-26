@@ -10,7 +10,7 @@ $lang = array();
 $lang['lang-code'] = 'en';
  
 $lang['TITLE'] = 'Bristol Hotel - Buenos Aires';
-
+$lang['meta-description'] = 'The Bristol is an elegant and comfortable 4 star hotel located in Buenos Aires, in front of the Obelisk.';
 
 // NAV
 

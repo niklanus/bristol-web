@@ -10,7 +10,7 @@ $lang = array();
 $lang['lang-code'] = 'es';
  
 $lang['TITLE'] = 'Hotel Bristol - Buenos Aires';
-
+$lang['meta-description'] = 'El Bristol es un elegante y confortable hotel 4 estrellas ubicado en Ciudad de Buenos Aires, frente al Obelisco.';
 
 // NAV
 
